@@ -1,0 +1,39 @@
+.popupthanksnew {
+    width: 606px;
+    height: 455px;
+    background: url(../img/bg_thanks.png);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    &__close {
+        position: absolute;
+        top: -21px;
+        right: 15px;
+        font-size: 70px;
+        color: #fff;
+        cursor: pointer;
+    }
+    &__title {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 47px;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 174px 0 19px 0;
+    }
+    &__divider {
+        width: 566px;
+        height: 0px;
+        border: 2px solid #FFFFFF;
+        margin: 0 0 20px 20px;
+    }
+    &__subtitle {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: center;
+    }
+}

@@ -1,0 +1,19 @@
+.footer {
+    width: 1440px;
+    height: 101px;
+    margin: 0 auto;
+    .container {
+        width: 1052px;
+        margin: 0 auto;
+    }
+    &__text {
+        padding-top: 25px;
+        text-align: center;
+    }
+    &__divider {
+        width: 247px;
+        height: 0px;
+        border: 2px solid $main-color;
+        margin: 0 auto;
+    }
+}

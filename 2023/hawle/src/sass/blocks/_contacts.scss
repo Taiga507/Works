@@ -1,0 +1,45 @@
+.contacts {
+    width: 1440px;
+    height: 669px;
+    margin: 111px auto 60px;
+    &__divider {
+        width: 147px;
+        height: 5px;
+        background: $main-color;
+        margin-top: 10px;
+    }
+    &__items {
+        margin: 49px 0 1px 0;
+    }
+    &__item {
+        display: grid;
+        grid-template-columns: 24px auto;
+        row-gap: 5px;
+        padding-bottom: 20px;
+        img {
+            place-self: center start;
+        }
+    }
+    .container {
+        margin: 0 auto;
+        display: grid;
+        grid-template: 669px / 617px 617px;
+        column-gap: 30px;
+    }
+    &__map {
+        padding-left: 5px;
+        iframe {
+            border-radius: 5px;
+        }
+    }
+    &__btn {
+        display: grid;
+        grid-template-columns: 216px auto;
+        column-gap: 11px;
+        align-items: center;
+    }
+}
+
+input.contacts__file::-webkit-file-upload-button {
+    display: none;
+}

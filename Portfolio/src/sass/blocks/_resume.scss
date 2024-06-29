@@ -1,0 +1,88 @@
+.resume {
+    padding-top: 100px;
+    &__title {
+        position: relative;
+        text-align: center;
+        margin-bottom: 0;
+        @include before_circle;
+        &:before {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    &__subtitle {
+        text-align: center;
+    }
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 425px);
+        column-gap: 136px;
+        padding: 60px 0 0 77px;
+    }
+    &__column {
+        &-title {
+            position: relative;
+            padding-left: 35px;
+            margin: 0;
+            &:before {
+                content: '';
+                position: absolute;
+                width: 15px;
+                height: 15px;
+                background: $main-color;
+                border-radius: 100%;
+                left: -7px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            li {
+                position: relative;
+                &:after {
+                    content: '';
+                    width: 1px;
+                    height: calc(100% + 8px);
+                    position: absolute;
+                    top: -8px;
+                    left: 0;
+                    background-color: #000;
+                }
+            }
+        }
+    }
+    &__item {
+        position: relative;
+        &:before {
+            content: '';
+            height: 1px;
+            width: 43px;
+            position: absolute;
+            background: #000;
+            top: 63px;
+        }
+        &-head {
+            position: relative;
+            padding: 45px 0 0 99px;
+        }
+        &-body {
+            padding: 12px 0 0 43px;
+        }
+        &-icon {
+            position: absolute;
+            top: 45px;
+            left: 43px;
+            @include before_circle;
+            img {
+                position: absolute;
+                top: 14px;
+                left: 18px;
+            }
+        }
+        &-title {
+            margin-bottom: 0;
+        }
+    }
+}

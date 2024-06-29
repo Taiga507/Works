@@ -1,0 +1,158 @@
+@mixin general_banner {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin general_btnBanner {
+    font-family: DINRoundPro;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #E32E16;
+    border-radius: 16px;
+    width: 349px;
+    margin-top: 76px;
+    padding: 10px 42px 9px 42px;
+    transition: all .2s ease;
+
+    &:hover {
+        box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
+    }
+}
+
+@mixin safetyAnim {
+    animation: safetyAnim .5s linear forwards;
+}
+
+@mixin safetyAnimKey {
+    @keyframes safetyAnim {
+        from {
+            transform: translateY(0) translateX(0);
+        }
+
+        30% {
+            opacity: 1;
+        }
+
+        to {
+            transform: translateY(30%) translateX(-30%);
+        }
+    }
+}
+
+@mixin animBlock {
+    animation: animText 1s ease 0s 1 normal forwards;
+}
+
+@mixin animBlock {
+    @keyframes animBlock {
+        0% {
+            opacity: 0;
+            transform: translateX(-250px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+}
+
+@mixin title {
+    text-align: center;
+    font-family: DINRoundPro;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 102.5%;
+    text-transform: uppercase;
+    color: #024FA2;
+}
+
+@mixin animImg {
+    @keyframes animImg1 {
+        0% {
+            transform: translate(2px, 1px);
+        }
+
+        20% {
+            transform: translate(2px, 3px);
+        }
+
+        40% {
+            transform: translate(1px, 2px);
+        }
+
+        60% {
+            transform: translate(3px, 2px);
+        }
+
+        80% {
+            transform: translate(2px, 3px);
+        }
+
+        100% {
+            transform: translate(0px);
+        }
+    }
+
+    @keyframes animImg2 {
+        0% {
+            transform: translate(1px, 2px);
+        }
+
+        20% {
+            transform: translate(1px, 1px);
+        }
+
+        40% {
+            transform: translate(0.5px, 2px);
+        }
+
+        60% {
+            transform: translate(1px, 2.5px);
+        }
+
+        80% {
+            transform: translate(0.5px, 2px);
+        }
+
+        100% {
+            transform: translate(0px);
+        }
+    }
+
+    @keyframes animImg3 {
+        0% {
+            transform: translate(3px, 4px);
+        }
+
+        20% {
+            transform: translate(3px, 3px);
+        }
+
+        40% {
+            transform: translate(2.5px, 3.5px);
+        }
+
+        60% {
+            transform: translate(1px, 3.5px);
+        }
+
+        80% {
+            transform: translate(0.5px, 3px);
+        }
+
+        100% {
+            transform: translate(0px);
+        }
+    }
+}
+
+@mixin animTxt {
+    transition: all 1.5s .5s ease;
+}

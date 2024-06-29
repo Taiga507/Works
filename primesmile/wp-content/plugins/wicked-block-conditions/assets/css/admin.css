@@ -1,0 +1,145 @@
+/**
+ * Conditions Panel
+ */
+.wbc-conditions {
+    margin: 0 0 20px 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.wbc-conditions li {
+    margin: 0;
+}
+
+.wbc-conditions h3 {
+    margin: 0;
+}
+
+.wbc-conditions .wbc-head {
+    padding: 8px 10px;
+    background: #fafafa;
+}
+
+.wbc-conditions .wbc-foot {
+    padding: 8px 10px;
+    background: #fafafa;
+    border-top: solid 1px #e2e4e7;
+}
+
+.wbc-conditions .wbc-group-condition > .wbc-content {
+    border: solid 1px #e2e4e7;
+}
+
+.wbc-conditions .wbc-group-condition > .wbc-operator {
+    padding: 10px 11px;
+    position: relative;
+}
+
+.wbc-conditions .wbc-group-condition > .wbc-operator:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #e2e4e7;
+    left: 0;
+    top: 50%;
+}
+
+.wbc-conditions .wbc-group-condition > .wbc-operator > div {
+    display: inline;
+    padding: 0 5px;
+    position: relative;
+    background: #fff;
+}
+
+.wbc-conditions .wbc-group-condition ul > .wbc-condition:first-child .wbc-content {
+    padding-left: 0;
+}
+
+.wbc-conditions .wbc-condition {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: solid 1px #e2e4e7;
+    width: 100%;
+}
+
+.wbc-conditions .wbc-condition .wbc-operator {
+    width: 65px;
+}
+
+.wbc-conditions .wbc-condition .wbc-content {
+    padding: 0 10px;
+    flex-grow: 1;
+}
+
+.wbc-conditions .wbc-condition .wbc-edit {
+    text-align: right;
+    width: 20px;
+    line-height: 0;
+}
+
+.wbc-conditions .wbc-condition .wbc-edit button {
+    padding: 0;
+    color: #0073aa;
+}
+
+.wbc-conditions .wbc-condition .wbc-edit button:focus,
+.wbc-conditions .wbc-condition .wbc-edit button:hover {
+    color: #00a0d2;
+}
+
+.wbc-empty-group {
+    margin: 0;
+    border-top: solid 1px #e2e4e7;
+    padding: 20px;
+    text-align: center;
+}
+
+.wbc-select-condition h3 {
+    margin-bottom: 0;
+}
+
+.wbc-select-condition ul {
+    margin-top: 0;
+}
+
+.wbc-edit-condition h3 {
+    margin: 0;
+}
+
+.wbc-edit-condition .wbc-foot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wbc-edit-condition .wbc-user-roles {
+    margin: 0 0 20px 0;
+}
+
+.wbc-edit-condition .wbc-user-roles .components-base-control {
+    margin-bottom: 0;
+}
+
+.wbc-edit-condition .wbc-terms {
+    margin: 0 0 20px 0;
+}
+
+.wbc-edit-condition .wbc-terms .components-base-control {
+    margin-bottom: 0;
+}
+
+.wbc-date-popup-content {
+    padding: 10px;
+}
+
+.wbc-current-date-condition {
+    margin: 0 0 20px 0;
+}
+
+/**
+ * Miscellaneous
+ */
+.wbc-separator {
+    margin: 0 10px;
+}

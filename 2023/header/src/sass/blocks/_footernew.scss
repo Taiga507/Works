@@ -1,0 +1,100 @@
+.footernew {
+    width: 1380px;
+    height: 78px;
+    display: flex;
+    padding: 19px 0 0 35px;
+    margin: 0 auto;
+    &__search {
+        width: 842px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        input {
+            width: 309px;
+            height: 40px;
+            border: 1px solid rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            color: #000000;
+            opacity: 0.5;
+            padding-left: 48px;
+            background: url(../icons/magnifier.png) no-repeat 12px;
+            background-size: auto 80%;
+            &:focus{
+                outline-color: rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+    &__mail {
+        display: grid;
+        grid-template-columns: 30px auto;
+        column-gap: 6px;
+        a {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+            color: #454545;
+            align-self: center;
+            text-decoration: none;
+            
+        }
+    }
+    &__phone {
+        display: grid;
+        grid-template-columns: 30px auto;
+        column-gap: 6px;
+        a {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+            color: #454545;
+            align-self: center;
+            text-decoration: none;
+            &::after {
+                content: '';
+                position: relative;
+                width: 0;
+                height: 0;
+                border-width: 11px 7px;
+                border-style: solid;
+                border-color: #454545 transparent transparent transparent;
+                top: 16px;
+                right: -5px
+            }
+        }
+    }
+    &__btn {
+        display: grid;
+        grid-template: 40px / 200px 200px;
+        column-gap: 14px;
+        width: 414px;
+        margin-left: 37px;
+        align-self: center;
+        &-take {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            text-transform: uppercase;
+            color: #FFFBFB;
+            background: #DC3903;
+            background-blend-mode: darken;
+            border-radius: 10px;
+            border: none;
+            padding-top: 2px;
+        }
+        &-basket {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            text-transform: uppercase;
+            color: #FFFBFB;
+            background: #0D638B;
+            border-radius: 10px;
+            border: none;
+            padding-top: 2px;
+        }
+    }
+}

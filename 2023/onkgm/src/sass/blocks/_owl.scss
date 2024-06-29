@@ -1,0 +1,33 @@
+.owl {
+    width: 1440px;
+    height: 695px;
+    margin: 0 auto;
+    .container {
+        margin: 0 auto;
+    }
+    &__title {
+        padding: 56px 0 44px 0;
+    }
+    a {
+        cursor: zoom-in;
+    }
+    img {
+        &:hover {
+            opacity: .7;
+        }
+    }
+}
+.owl-theme .owl-dots .owl-dot span {
+    background: #B3B3B3;
+    width: 79px;
+    height: 6px;
+    margin: 0;
+    border-radius: 0;
+    margin-top: 34px;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin: 0;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: $main-color;
+}

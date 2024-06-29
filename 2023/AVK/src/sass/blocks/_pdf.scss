@@ -1,0 +1,24 @@
+.pdf {
+    width: 1104px;
+    height: 210px;
+    margin: 60px auto 67px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 1104px;
+        height: 210px;
+    }
+    &__items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__title {
+        padding: 20px 0 7px 0;
+    }
+    &__downloads {
+        a {
+            text-decoration: none;
+        }
+    }
+}

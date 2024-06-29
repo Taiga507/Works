@@ -1,0 +1,156 @@
+.footer{
+	&__wrapper {
+		margin: 0 40px;
+	}
+	&__divider {
+		width: 1200px;
+		height: 1px;
+		background-color: $light-gray;
+		margin-bottom: 46px;
+	}
+	&__contacts {
+		margin-bottom: 122px;
+		&-items {
+			margin-top: 12px;
+		}
+		&-title {
+			font-family: $font-family-inter;
+			font-size: $font-size-12;
+			line-height: 20px;
+			color: $color-primary;
+		}
+		&-info {
+			margin-top: 16px;
+			li:first-child {
+				padding-bottom: 4px;
+			}
+		}
+		&-phone {
+			font-family: $font-family-inter;
+			font-size: $font-size-16;
+			line-height: 24px;
+			color: $color-primary;
+		}
+		&-email {
+			font-family: $font-family-inter;
+			font-size: $font-size-14;
+			line-height: 20px;
+			color: $blue;
+		}
+	}
+	&__social {
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		width: 183px;
+		height: 36px;
+		margin: 30px 0 12px 0;
+		img {
+			width: 36px;
+			height: 36px;
+		}
+		&-title{
+			font-family: $font-family-inter;
+			font-size: $font-size-10;
+			line-height: 14px;
+			color: $blue-gray;
+		}
+	}
+	&__app {
+		height: 133px;
+	}
+	&__apps {
+		padding: 17px 0 0 12px;
+		h5 {
+			margin-bottom: 4px;
+		}
+		a:last-child {
+			padding-left: 12px;
+		}
+		img {
+			max-width: 135px;
+		}
+	}
+	&__qr {
+		display: flex;
+		padding: 17px 0 0 12px;
+		img {
+			width: 68px;
+			height: 68px;
+			margin-right: 16px;
+		}
+		h5 {
+			color: $color-primary;
+			margin-bottom: 4px;
+		}
+		p {
+			font-family: $font-family-inter;
+			font-size: $font-size-12;
+			line-height: 20px;
+			color: $blue-gray;
+		}
+	}
+	&__rewards {
+		height: 100px;
+	}
+	&__payment {
+		display: flex;
+		flex-wrap: nowrap;
+		padding: 0 0 32px 12px;
+		img {
+			max-width: 191px;
+		}
+		p {
+			font-family: $font-family-inter;
+			font-size: $font-size-10;
+			line-height: 14px;
+			color: $blue-gray;
+			padding: 20px 0 0 16px;
+		}
+	}
+	&__awards {
+		display: flex;
+		flex-wrap: nowrap;
+		padding: 16px 0 0 12px;
+		gap: 14px;
+		img {
+			height: 36px;
+		}
+		&-iata {
+			width: 60px;
+		}
+		&-pci {
+			width: 77px;
+		}
+		&-rostur {
+			width: 36px;
+		}
+		&-tech {
+			width: 36px;
+		}
+		&-items {
+			display: flex;
+			flex-wrap: nowrap;
+			p {
+				font-family: $font-family-inter;
+				font-size: $font-size-10;
+				line-height: 14px;
+				color: $blue-gray;
+				padding: 4px 0 0 12px;
+			}
+		}
+		:nth-child(3) {
+			margin-right: 26px;
+		}
+	}
+	&__copyright {
+		height: 96px;
+		p {
+			font-family: $font-family-inter;
+			font-size: $font-size-12;
+			line-height: 16px;
+			color: $silver;
+			padding-top: 16px;
+		}
+	}
+}

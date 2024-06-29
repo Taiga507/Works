@@ -1,0 +1,100 @@
+.contacts {
+    padding-top: 100px;
+    &__wrapper {
+        padding: 0 35px 100px 52px;
+        display: grid;
+        grid-template-columns: 400px auto;
+        column-gap: 68px;
+    }
+    &__photo {
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__descr {
+        padding-top: 6px;
+        .divider {
+            margin: 4px 0;
+        }
+    }
+    &__title {
+        position: relative;
+        padding: 1px 0 0 12px;
+        margin-bottom: 0;
+        @include before_circle
+    }
+    &__text, &__social {
+        margin-top: 20px;
+    }
+    &__link {
+        margin-right: 25px;
+        text-decoration: none;
+        &:hover {
+            svg path {
+                fill: rgb(123, 123, 132);
+            }
+        }
+    }
+    &__form {
+        margin-top: 30px;
+        display: grid;
+        grid-template: 45px 190px 45px / 280px 280px;
+        gap: 30px 25px;
+        label {
+            display: block;
+            position: absolute;
+            height: 18px;
+            padding: 0 8px;
+            background-color: #fff;
+            font-size: 12px;
+            top: -9px;
+            left: 12px;
+        }
+    }
+    &__triggers {
+        grid-column: 1/3;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        column-gap: 35px;
+    }
+    &__policy {
+        align-self: center;
+        input {
+            margin-right: 9px;
+        }
+        a {
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    &__input {
+        position: relative;
+        input {
+            width: 100%;
+            height: 100%;
+            padding: 0 20px;
+            font-size: 12px;
+            &:focus{
+                outline-color: $main-color;
+            }
+        }
+    }
+    &__textarea {
+        position: relative;
+        grid-column: 1/3;
+        textarea {
+            width: 100%;
+            height: 100%;
+            resize: none;
+            padding: 10px 20px;
+            font-size: 12px;
+            &:focus{
+                outline-color: $main-color;
+            }
+        }
+    }
+}

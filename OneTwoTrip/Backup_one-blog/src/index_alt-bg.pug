@@ -1,0 +1,25 @@
+doctype html
+include /components/ui/ui.pug
+html(lang="ru")
+	head
+		include /components/meta/meta
+		block title
+			title index
+	body(class="alt-bg")
+
+		div(class="page-wrapper")
+			block header
+				include /components/header/header
+				
+			main(class="main")
+				block content
+			block footer
+				include /components/footer/footer
+
+		script(src='https://code.jquery.com/jquery-3.7.1.min.js' integrity='sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=' crossorigin='anonymous')
+		script(src='https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js')
+		script(src='js/intlTelInput.js')
+		script(src='js/common.js')
+		script(src='js/bundle.js')
+		script(src='js/main.js')
+

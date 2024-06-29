@@ -1,0 +1,509 @@
+
+/*scale 110%*/
+@media screen and (max-width: 1310px) {
+    p,
+    a,
+    h3,
+    h4,
+    h5,
+    h6,
+    span,
+    button {
+        font-size: 17px !important;
+    }
+
+    h2 {
+        font-size: 35px !important;
+    }
+
+    h1 {
+        font-size: 40px !important;
+    }
+
+    .title-honeycomb {
+        margin-top: 180px;
+    }
+
+    .family-magic {
+        margin-left: -70px;
+    }
+
+    .children-text {
+        left: 359px !important;
+    }
+
+    .children-magic {
+        margin-left: 23px;
+    }
+
+    .family-text {
+        left: 20px;
+    }
+
+    .grand-text {
+        left: 860px;
+    }
+
+    .desc3 {
+        width: 315px;
+    }
+
+    .title-of-descr3 {
+        width: 310px;
+    }
+
+    .honey-small {
+        width: 243px !important;
+    }
+
+    .relative-group:not(div:first-child) img {
+        width: 260px;
+        top: 3px;
+    }
+
+    .anim-img {
+        left: 0;
+    }
+    .geom-group3 {
+        width: 330px !important;
+        top: -20px !important;
+    }
+
+    .photo-human img:first-child {
+        top: -695px;
+        left: 0px;
+        /* width: 130px; */
+    }
+
+    .photo-human img:nth-child(2) {
+        top: -450px;
+        left: 90px;
+        /* width: 240px; */
+    }
+
+    .photo-human img:nth-child(3) {
+        top: -370px;
+        left: 465px;
+        /* width: 240px; */
+    }
+
+    .photo-human img:nth-child(4) {
+        top: -520px;
+        left: 830px;
+        /* width: 240px; */
+    }
+
+    .photo-human img:last-child {
+        top: -720px;
+        left: 935px;
+        /* width: 130px; */
+    }
+
+    .polygon img:first-child {
+        top: -450px;
+        left: 395px;
+    }
+
+    .polygon img:nth-child(2) {
+        top: -265px;
+        left: -10px;
+        width: 110px;
+    }
+
+    .polygon img:nth-child(3) {
+        top: -170px;
+        left: 860px;
+    }
+
+    .polygon img:nth-child(4) {
+        top: -550px;
+        left: 8px;
+        z-index: -1;
+        /* width: 40px; */
+    }
+
+    .polygon img:nth-child(5) {
+        top: -445px;
+        left: 104px;
+        z-index: -1;
+    }
+
+    .polygon img:nth-child(6) {
+        top: -225px;
+        left: 300px;
+        z-index: -1;
+    }
+
+    .polygon img:nth-child(7) {
+        top: -540px;
+        left: 840px;
+    }
+
+    .polygon img:nth-child(8) {
+        top: -300px;
+        left: 1039.5px;
+        z-index: -1;
+    }
+
+    .polygon img:last-child {
+        top: -583px;
+        left: 1041.5px;
+        z-index: -1;
+    }
+
+    .adress>div>div>p {
+        font-size: 30px !important;
+    }
+
+    .pic-atmosphere img {
+        width: 558px;
+        height: 558px;
+    }
+
+    .atmosphere .carousel-control-prev {
+        top: 540px;
+    }
+
+    .atmosphere .carousel-control-next {
+        top: 540px;
+    }
+
+    .smile-now .row >div:nth-child(2) >p {
+        margin-top: -15px !important;
+    }
+}
+/*scale 125%*/
+@media screen and (max-width: 1153px) {
+
+    p,
+    a,
+    h3,
+    h4,
+    h5,
+    h6,
+    span,
+    button {
+        font-size: 15px !important;
+    }
+
+    h2 {
+        font-size: 30px !important;
+    }
+
+    h1 {
+        font-size: 35px !important;
+    }
+
+    .super-approach h1 {
+        margin-bottom: 100px !important;
+    }
+
+    .super-approach td {
+        position: relative !important;
+    }
+
+    .family-magic {
+        margin-left: -60px;
+    }
+
+    .family-magic img:nth-child(2) {
+        width: 255px !important;
+        top: 60px;
+        left: 0px;
+    }
+
+    .family-magic img:first-child {
+        width: 70px !important;
+        margin-top: 300px !important;
+    }
+
+    .family-magic img:last-child {
+        width: 274px !important;
+    }
+
+    .children-magic img:first-child {
+        width: 70px !important;
+        top: 50px;
+    }
+
+    .children-magic img:nth-child(2) {
+        width: 225px !important;
+        top: 3px;
+        margin-left: -5px !important;
+    }
+
+    .children-magic img:last-child {
+        width: 252.1px !important;
+        margin-left: -18px;
+    }
+
+    .grand-magic {
+        width: 330px
+    }
+
+    .grand-magic img:first-child {
+        width: 75px !important;
+        margin-top: 316px !important;
+        margin-left: 251px !important;
+    }
+
+    .grand-magic img:nth-child(2) {
+        width: 330px !important;
+        top: -0.5px;
+        left: 12px;
+    }
+
+    .grand-magic img:last-child {
+        width: 338px !important;
+    }
+
+    .children-text {
+        left: 320px !important;
+        top: -543px;
+    }
+
+    .relative-group {
+        width: 280px !important;
+    }
+
+    .relative-group:last-child {
+        left: -233px;
+    }
+
+    .relative-group:not(div:first-child) {
+        top: -100px;
+    }
+
+    .relative-group h2 {
+        font-size: 28px !important;
+    }
+
+    .relative-group img {
+        width: 250px !important;
+    }
+
+    .relative-group:first-child img {
+        width: 238px !important;
+        left: 13px;
+    }
+
+    .relative-group p {
+        font-size: 16px !important;
+        margin-bottom: 0 !important;
+        line-height: normal;
+    }
+
+    .relative-group p a {
+        font-size: 13px !important;
+        margin-left: -74px;
+    }
+
+    .relative-group:not(div:first-child) img {
+        width: 215px !important;
+        top: 3px;
+    }
+
+    .relative-group:not(div:first-child) p {
+        margin-top: -5px !important;
+        width: 300px;
+    }
+
+    .descr-our-heroes .relative-group:last-child img {
+        width: 265px !important;
+        top: -15px;
+        left: 10px;
+    }
+
+    .descr-our-heroes .relative-group:last-child p {
+        width: 180px !important;
+    }
+
+    .honeycomb-big {
+        width: 300px;
+    }
+
+    .honey-middle {
+        width: 210px;
+    }
+
+    .honey-small {
+        width: 200px !important;
+    }
+
+    .round-honeycomb {
+        width: 130px;
+    }
+
+    .title-honeycomb {
+        margin-top: 50px;
+    }
+
+    .yellow-block {
+        padding-right: 0;
+        margin-top: 20px;
+        margin-right: -50px;
+
+    }
+
+    .yellow-block .round-honeycomb {
+        margin-right: 22px;
+    }
+
+    .honeycomb-row-horizontal .honeycomb-desc {
+        font-size: 13px !important;
+    }
+
+    .honeycomb .col-6:last-child {
+        padding-left: 30px !important;
+    }
+
+    .animBlock img {
+        width: 960px;
+    }
+
+    .anim-img img {
+        width: 100px;
+        left: 66px;
+        top: 40px;
+    }
+
+    .anim-img {
+        left: 0px;
+        top: 150px;
+    }
+
+    .services {
+        padding-top: 10px !important;
+    }
+
+    .services h4 {
+        font-size: 13px !important;
+        width: 185px;
+    }
+
+    .services img {
+        width: 220px;
+        margin-bottom: 4.5px;
+    }
+
+    .photo-human img:first-child {
+        top: -695px;
+        left: -80px;
+        /* width: 130px; */
+    }
+
+    .photo-human img:nth-child(2) {
+        top: -450px;
+        left: 10px;
+        /* width: 240px; */
+    }
+
+    .photo-human img:nth-child(3) {
+        top: -370px;
+        left: 385px;
+        /* width: 240px; */
+    }
+
+    .photo-human img:nth-child(4) {
+        top: -520px;
+        left: 750px;
+        /* width: 240px; */
+    }
+
+    .photo-human img:last-child {
+        top: -720px;
+        left: 855px;
+        /* width: 130px; */
+    }
+
+    .polygon img:first-child {
+        top: -450px;
+        left: 315px;
+    }
+
+    .polygon img:nth-child(2) {
+        top: -265px;
+        left: -90px;
+        width: 110px;
+    }
+
+    .polygon img:nth-child(3) {
+        top: -170px;
+        left: 780px;
+    }
+
+    .polygon img:nth-child(4) {
+        top: -550px;
+        left: -72px;
+        z-index: -1;
+        /* width: 40px; */
+    }
+
+    .polygon img:nth-child(5) {
+        top: -445px;
+        left: 24px;
+        z-index: -1;
+    }
+
+    .polygon img:nth-child(6) {
+        top: -225px;
+        left: 220px;
+        z-index: -1;
+    }
+
+    .polygon img:nth-child(7) {
+        top: -540px;
+        left: 760px;
+    }
+
+    .polygon img:nth-child(8) {
+        top: -300px;
+        left: 959.5px;
+        z-index: -1;
+    }
+
+    .polygon img:last-child {
+        top: -583px;
+        left: 961.5px;
+        z-index: -1;
+    }
+
+    .main-doc .oksana img,
+    .main-doc .vaagn img {
+        width: 370px;
+    }
+
+    .team .itc-slider .itc-slider__items .itc-slider__item .doctor-circle {
+        width: 300px;
+    }
+
+    .team .teeth {
+        width: 75px;
+        margin-top: 230px;
+        margin-left: 185px;
+    }
+    
+    
+    .metro-btns button:last-child {
+        width: 221px;
+        margin-left: 0 !important;
+        margin-top: 5px;
+    }
+
+    .adress>div>div>p {
+        font-size: 30px !important;
+    }
+
+    .pic-atmosphere img {
+        width: 470px;
+        height: 470px;
+    }
+
+    .atmosphere .carousel-control-prev {
+        top: 460px;
+    }
+
+    .atmosphere .carousel-control-next {
+        top: 460px;
+    }
+}

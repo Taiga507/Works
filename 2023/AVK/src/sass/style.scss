@@ -1,0 +1,32 @@
+@import 'libs/bootstrap.min';
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import 'libs/owl.carousel.min.scss';
+@import 'libs/owl.theme.default.min.scss';
+@import 'libs/magnific-popup.scss';
+
+@import 'base/variables';
+@import 'base/mixins';
+
+@import 'blocks/header';
+@import 'blocks/title';
+@import 'blocks/buttons';
+@import 'blocks/modal';
+@import 'blocks/catalog';
+@import 'blocks/owl';
+@import 'blocks/delivery';
+@import 'blocks/contacts';
+@import 'blocks/footer';
+@import 'blocks/pdf';
+@import 'blocks/sertificates';
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1440px;
+    margin: 0;
+    padding: 0;
+}

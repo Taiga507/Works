@@ -1,0 +1,47 @@
+.owl {
+    width: 1440px;
+    height: 567px;
+    margin: 0 auto;
+    .container {
+        margin: 0 auto;
+    }
+    &__text {
+        width: 1097px;
+        height: 128px;
+        margin: 0 auto 20px;
+    }
+    a {
+        cursor: zoom-in;
+    }
+    img {
+        &:hover {
+            opacity: .7;
+        }
+    }
+}
+
+.slide-one .owl-stage-outer {
+    position: relative;
+    width: 910px;
+    margin: 0 auto;
+}
+.owl-prev {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 90px;
+}
+.owl-next {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 90px;
+}
+.owl-carousel .owl-nav .owl-prev:hover {
+    background: transparent;
+    background: url(../icons/arrow_left.svg);
+}
+.owl-carousel .owl-nav .owl-next:hover {
+    background: transparent;
+    background-image: url(../icons/arrow_right.svg);
+}

@@ -1,0 +1,17 @@
+.sertificates {
+    width: 1440px;
+    height: 621px;
+    margin: 0 auto;
+    background: url(../img/certificates_bg.png) center (center/cover) no-repeat;
+    .container {
+        margin: 0 auto;
+    }
+    &__title {
+        padding: 63px 0 55px 0;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 44px 0 44px;
+    }
+}

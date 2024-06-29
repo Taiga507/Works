@@ -1,0 +1,82 @@
+.title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    color: #18ACCD;
+    &_fz14 {
+        font-size: 14px;
+        line-height: 16px;
+        color: #454545;
+    }
+    &_fz16 {
+        font-size: 16px;
+        line-height: 18px;
+        color: #FFF9EB;
+    }
+    &_fz16b {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    &_fz16bl {
+        font-size: 16px;
+        line-height: 18px;
+        color: #454545;
+    }
+    &_fz16w {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+        color: #FFF9EB;
+    }
+    &_fz16u {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #454545;
+    } 
+    &_fz18 {
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: uppercase;
+        color: #FFF9EB;
+    }
+    &_fz18bl {
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: uppercase;
+        color: #454545;
+    }
+    &_fz22 {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 25px;
+        color: #FFF9EB;
+    }
+    &_fz22w {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 25px;
+        color: #FFF9EB;
+    }
+    &_fz40 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 46px;
+        color: #454545;
+    }
+    &_fz40w {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 46px;
+        color: #FFF9EB;
+    }
+    &_fz60 {
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 69px;
+        color: #37415A;
+    }
+}

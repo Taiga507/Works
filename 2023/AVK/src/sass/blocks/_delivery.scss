@@ -1,0 +1,20 @@
+.delivery {
+    width: 1440px;
+    height: 829px;
+    margin: 79px auto 0;
+    .container{
+        background: url(../img/delivery_bg.png) top center no-repeat;
+        margin: 0 auto;
+    }
+    &__title {
+        padding-top: 7px;
+    }
+    &__descr {
+        padding-top: 600px;
+        text-align: center;
+    }
+}
+
+.colortext {
+    color: $main-color;
+}

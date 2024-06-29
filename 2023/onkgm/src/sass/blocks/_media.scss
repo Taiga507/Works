@@ -1,0 +1,44 @@
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+    .header {
+        width: 767px;
+        margin: 0 auto;
+        &__wrapper {
+            width: 767px;
+            grid-template-columns: 155px 290px 290px;
+        }
+        &__nav {
+            display: none;
+        }
+        &__logo {
+            padding: 28px 0 0 0;
+        }
+        &__contacts {
+            grid-template-columns: 290px 290px;
+        }
+    }
+    .container {
+        width: 767px;
+        margin: 0 auto;
+    }
+    h1 {
+        padding: 43px 0 0 100px;
+        &:after {
+            width: 11px;
+            height: 360px;
+            top: 50px;
+            left: 50px;
+        }
+    }
+    .title_fz80 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+}

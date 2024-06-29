@@ -1,0 +1,135 @@
+.title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    color: #444444;
+    &_fz14 {
+        font-size: 14px;
+        line-height: 16px;
+        color: #454545;
+    }
+    &_fz15 {
+        font-size: 15px;
+        line-height: 17px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &_fz16 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    &_fz16c {
+        font-size: 16px;
+        line-height: 18px;
+        color: #454545;
+    }
+    &_fz16w{
+        font-size: 16px;
+        line-height: 18px;
+        color: #FFFFFF;
+    }
+    &_fz16700 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+        color: #FFF9EB;
+    }
+    &_fz16u {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #454545;
+        text-align: center;
+    }
+    &_fz16m {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+        color: #444444;
+    }
+    &_fz18 {
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: uppercase;
+    }
+    &_fz18c {
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: uppercase;
+        color: #454545;
+        text-align: center;
+    }
+    &_fz18w {
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &_fz20 {
+        font-size: 20px;
+        line-height: 116.4%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &_fz20b {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+        color: #000000;
+    }
+    &_fz20b400 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        color: #444444;
+        text-align: center;
+    }
+    &_fz22 {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 25px;
+        color: #444444;
+    }
+    &_fz35 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    &_fz40 {
+        font-size: 40px;
+        line-height: 46px;
+        text-align: center;
+    }
+    &_fz40c {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 46px;
+        color: #454545;
+    }
+    &_fz40w {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 46px;
+        color: #FFF9EB;
+    }
+    &_fz46 {
+        font-size: 40px;
+        line-height: 46px;
+        color: #454545;
+        text-align: center;
+    }
+    &_fz60 {
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 69px;
+        color: #454545;
+    }
+    &_fz80 {
+        font-size: 80px;
+        line-height: 100px;
+        letter-spacing: -0.055em;
+        color: #FFFFFF;
+    }
+}

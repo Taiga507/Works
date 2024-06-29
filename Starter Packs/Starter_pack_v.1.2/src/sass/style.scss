@@ -1,0 +1,122 @@
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import url("https://fonts.googleapis.com/css?family=Inter:500,400");
+
+@font-face {
+  font-family: "Golos-TextMedium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Golos-Text_Medium.ttf") format("truetype");
+}
+
+:root {
+  // Buttons Colors
+  --color-button-bg: #9d85ff;
+  --color-button-bg_hover: #8469f0;
+  --color-button-text: #fff;
+  --color-button-text_hover: #fff;
+  --color-button-bg_secondary: #ced9f0;
+  --color-button-bg_secondary: #474356;
+  --color-button-bg_disabled: #ced9f0;
+  --color-button-text_disabled: #474356;
+  // Background Colors
+  --color-bg-main: #eaf0fc;
+  --color-accent-bg: #8469f0;
+  --color-bg-dark: #474356;
+  --color-bg-white: #fff;
+  --color-bg-gray-100: #f4f7fe;
+  --color-bg-gray-200: #eaf0fc;
+  --color-bg-gray-300: #dce5f6;
+  --color-bg-gray-400: #ced9f0;
+  --color-bg-gray-500: #91a2c3;
+  --color-bg-red: #ff6f6f;
+  --color-bg-nude-100: #f0dcc5;
+  --color-bg-nude-200: #f9f5f1;
+  --color-bg-nude-300: #f4e9de;
+  // Text colors
+  --color-accent: #8469f0;
+  --color-white: #fff;
+  --color-primary: #212121;
+  //Fonts
+  --title-font: "Lora", serif;
+  --base-font: "Lato", Helvetica, arial, sans-serif;
+  // Transitions
+  --transition-base: all 0.2s ease-in;
+  --abbey: #4d4d4d;
+  --basic--600: #8f9bb3;
+  --basic--800: #212121;
+  --black: #000000;
+  --black-pearl: #06102e99;
+  --black-pearl-2: #06102e;
+  --blue-marguerite: #7663d4;
+  --cloud: #c5c5c5;
+  --fuchsia-blue: #6e5dc1;
+  --gray-chateau: #a3aabf;
+  --guardsman-red: #c60000;
+  --gulf-stream: #7eb6ad;
+  --lima: #83bb0d;
+  --orange: #ff5e1e;
+  --plum: #8d468e;
+  --porcelain: #f0f2f7;
+  --portage: #9986f7;
+  --regal-blue: #13416d;
+  --regent-gray: #858fa7;
+  --royal-blue: #486ef4;
+  --star-dust: #9d9d9d;
+  --text-color--alternative: #ffffff;
+  --textscolor-text-contrast-primary: #ffffff;
+  --textscolor-text-primary: #212121;
+  --textscolor-text-tertiary: #cccccc;
+  --white: #ffffff1a;
+  --white-2: #ffffff33;
+  --x57bs65: #ffede6;
+  --yellow-sunshine: #fff400;
+ 
+  --font-size-66px: 66px;
+  --font-size-l: 18px;
+  --font-size-m: 12px;
+  --font-size-xl: 14px;
+  --font-size-xxl: 16px;
+  --font-size-xxxl: 18px;
+  --font-size-xxxxl: 22px;
+  --font-size-xxxxxl: 2.5rem;
+ 
+  --font-family-eb_garamond-medium: "EB Garamond-Medium", Helvetica;
+  --font-family-golos-textmedium: "Golos-TextMedium", Helvetica;
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-inter-bold: "Inter-Bold", Helvetica;
+  --font-family-lato-black: "Lato-Black", Helvetica;
+  --font-family-lato-regular: "Lato-Regular", Helvetica;
+  --font-family-montserrat-bold: "Montserrat-Bold", Helvetica;
+  --font-family-montserrat-bolditalic: "Montserrat-BoldItalic", Helvetica;
+  --font-family-montserrat-extrabold: "Montserrat-ExtraBold", Helvetica;
+  --font-family-montserrat-medium: "Montserrat-Medium", Helvetica;
+  --font-family-montserrat-mediumitalic: "Montserrat-MediumItalic", Helvetica;
+  --font-family-montserrat-regular: "Montserrat-Regular", Helvetica;
+  --font-family-montserrat-semibold: "Montserrat-SemiBold", Helvetica;
+  --font-family-muller-bold: "Muller-Bold", Helvetica;
+  --font-family-muller-extrabold: "Muller-ExtraBold", Helvetica;
+  --font-family-muller-light: "Muller-Light", Helvetica;
+  --font-family-muller-regular: "Muller-Regular", Helvetica;
+  --font-family-tahoma-bold: "Tahoma-Bold", Helvetica;
+  *{color:--color-primary}
+  // Patterns
+}
+
+
+h1 {
+  font-family: var(--font-family-golos-textmedium);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+
+img {width: 100%;}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  max-width: 1280px;
+}
+
+@import 'blocks/header';
+@import 'blocks/cataloge';
+@import 'blocks/footer';

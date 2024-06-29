@@ -1,0 +1,54 @@
+.sertificates {
+    width: 1440px;
+    height: 458px;
+    margin: 0 auto;
+    background: url(../img/certificates_bg.png) center (center/cover) no-repeat;
+    .container {
+        height: 300px;
+        margin: 0 auto;
+    }
+}
+.slide-two {
+    padding-top: 35px;
+}
+.slide-two .owl-stage-outer {
+    position: relative;
+    width: 910px;
+    margin: 0 auto;
+}
+.slide-two .owl-prev {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: -35px;
+    span {
+        display: block;
+        background-image: url(../icons/arrow_left_r.svg);
+        font-size: 0;
+        padding: 64px 64px 0 0;
+    }
+}
+.slide-two .owl-next {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: -35px;
+    span {
+        display: block;
+        background-image: url(../icons/arrow_right_r.svg);
+        font-size: 0;
+        padding: 64px 64px 0 0;
+    }
+}
+.slide-two .owl-carousel .owl-nav .owl-prev:hover {
+    background: none;
+    span {
+        background: url(../icons/arrow_left.svg);
+    }
+}
+.slide-two .owl-carousel .owl-nav .owl-next:hover {
+    background: none;
+    span {
+        background: url(../icons/arrow_right.svg);
+    }
+}

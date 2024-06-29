@@ -1,0 +1,25 @@
+.customers {
+    height: 509px;
+    width: 1440px;
+    margin: 0 auto;
+    &__wrapper {
+        width: 1440px;
+    }
+    &__title {
+        padding-top: 51px;
+    }
+    &__iconsone {
+        padding: 39px 0 0 141px;
+        display: grid;
+        grid-template-columns: repeat(3, 345px);
+        align-items: center;
+        column-gap: 72px;
+    }
+    &__iconstwo {
+        padding: 5px 0 0 235px;
+        display: grid;
+        grid-template-columns: 345px 200px 231px;
+        justify-items: end;
+        column-gap: 41px;
+    }
+}
