@@ -59,11 +59,11 @@
 					li {
 						font-family: $font-family-inter;
 						font-size: $font-size-14;
-						line-height: 24px;
+						line-height: 12px;
 						list-style: none;
+						padding-bottom: 12px;
 						a {
 							color: $color-primary;
-							margin-bottom: 2px;
 						}
 					}
 				}
@@ -75,11 +75,43 @@
 			&-item {
 				padding: 8px 0 4px 108px;
 			}
+			&-adver {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				width: 343px;
+				height: 215px;
+				background-color: $gray;
+				border-radius: 24px;
+				margin: 24px 11px 0 11px;
+				justify-content: space-around;
+				padding: 15px;
+				p {
+					font-family: $font-family-inter;
+					font-size: $font-size-16;
+					line-height: 24px;
+					text-align: center;
+				}
+				button {
+					width: 295px;
+					height: 60px;
+					border-radius: 18px;
+					padding: 16px;
+					background-color: $dark-blue;
+					color: $color-white;
+					font-family: $font-family-inter;
+					font-size: $font-size-16;
+					line-height: 24px;
+				}
+			}
 		}
 		&__title {
 			line-height: 19.2px;
 			padding: 0;
 		}
+	}
+	.offcanvas {
+		width: 375px;
 	}
 	.offcanvas-body {
 		padding: 0;
