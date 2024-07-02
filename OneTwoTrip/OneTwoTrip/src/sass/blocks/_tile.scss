@@ -24,8 +24,13 @@
 		z-index: 2;
 	}
 	&__first {
-		position: relative;
 		margin-bottom: 24px;
+		&-first {
+			position: relative;
+		}
+		&-second {
+			position: relative;
+		}
 		&-descr {
 			position: absolute;
 			top: 397px;
@@ -65,15 +70,16 @@
 				height: 440px;
 			}
 		}
-		// Раскомментировать, при раскомментировании сожержимого в tile__first-hide.
-		// &-hide {
-		// 	.tile__first-descr {
-		// 		width: 336px;
-		// 	}
-		// }
+		&-second {
+			.tile__first-descr {
+				width: 336px;
+			}
+		}
 	}
 	&__second {
-		position: relative;
+		&-row {
+			position: relative;
+		}
 		&-descr {
 			position: absolute;
 			top: 176px;

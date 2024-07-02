@@ -13,6 +13,7 @@
 @media (max-width: 767px) {
 	.tile {
 		&__wrapper {
+			width: 343px;
 			margin: 32px 0 0 16px;
 			h1 {
 				font-size: $font-size-32;
@@ -21,6 +22,10 @@
 			}
 		}
 		&__first {
+			margin: 0;
+			&-first {
+				padding: 0;
+			}
 			&-one {
 				width: 343px;
 				img {
@@ -56,8 +61,63 @@
 			&-subtitle {
 				margin: 0 0 24px 24px;
 			}
-			&-hide {
-				display: none;
+			&-second {
+				width: 343px;
+				padding: 0;
+				margin-bottom: 32px;
+				.tile__first-descr {
+					position: relative;
+					top: 0;
+				}
+				.tile__title {
+					bottom: 0;
+					color: $black;
+					background-color: $gray;
+					margin: 0;
+				}
+				.tile__first-title {
+					font-size: $font-size-24;
+					color: $color-primary;
+					line-height: 28.8px;
+					margin: 32px 0 16px 0;
+				}
+				.tile__first-subtitle {
+					color: $color-primary;
+					margin: 0 0 7px 120px;
+				}
+				.tile__first-two {
+					display: none;
+				}
+			}
+		}
+		&__second {
+			margin: 0;
+			&-row {
+				width: 343px;
+				padding: 0;
+				margin-bottom: 32px;
+				border-top: 1px solid rgba(240, 242, 247, 1);
+				.tile__second-descr {
+					position: relative;
+					top: 0;
+				}
+				.tile__title {
+					bottom: 0;
+					color: $black;
+					background-color: $gray;
+					margin: 0;
+				}
+				.tile__second-title {
+					color: $color-primary;
+					margin: 32px 0 16px 0;
+				}
+				.tile__second-subtitle {
+					color: $color-primary;
+					margin: 0 0 7px 120px;
+				}
+				.tile__second-img {
+					display: none;
+				}
 			}
 		}
 		&__mobile {
@@ -66,9 +126,6 @@
 			height: 160px;
 			background: url('../../img/bg-tile-mobile.png') no-repeat 50% 100%/100% 250%;
 			border-radius: 0 0 24px 24px;
-		}
-		&__second {
-			display: none;
 		}
 	}
 }

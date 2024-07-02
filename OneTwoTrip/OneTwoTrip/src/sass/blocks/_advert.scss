@@ -1,12 +1,13 @@
 .advert {
 	&__wrapper{
 		margin: 24px 40px 119px 40px;
-		background: url('../../img/bg_adv.png') no-repeat 60.9%/contain, #F0F2F7;
+		background: url('../../img/bg_adv.png') no-repeat 59% 52%/27%, #F0F2F7;
 		border-radius: 24px;
 		flex-direction: row;
 		justify-content: space-between;
 	}
 	&__descr {
+		width: 445px;
 		margin: 24px 0 0 24px;
 		padding: 0;
 		h4 {
@@ -18,7 +19,8 @@
 			font-weight: 400;
 			line-height: 19.2px;
 			text-align: left;
-			margin-bottom: 24px;
+			padding: 0 137px 24px 0;
+			margin-bottom: 0;
 		}
 	}
 	&__btn {
@@ -36,3 +38,5 @@
 		}
 	}
 }
+
+@import '_advert_media';
