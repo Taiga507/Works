@@ -14,15 +14,36 @@
 	.articles {
 		&__wrapper {
 			width: 343px;
-			margin: 100px 0 100px 0;
+			margin: 100px 0 100px 16px;
 			h2 {
 				font-size: $font-size-32;
 				line-height: 38.4px;
 				padding-bottom: 40px;
 			}
 		}
+		&__img {
+			img {
+				width: 343px;
+				height: 140px;
+			}
+		}
 		&__descr {
-			margin: 0 0 40px 0;
+			margin: 0 0 48px 0;
+		}
+		&__items {
+			h3 {
+				width: 343px;
+				font-size: $font-size-24;
+				line-height: 28.8px;
+				margin: 16px 0;
+			}
+		}
+		&__item {
+			height: 32px;
+			padding: 0;
+			&-arrow {
+				display: none;
+			}
 		}
 	}
 }

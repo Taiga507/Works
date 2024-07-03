@@ -1,5 +1,5 @@
 .mailing {
-	&__descr {
+	&__wrapper {
 		display: flex;
 		background: url('../../img/bg_mailing.png') no-repeat 0/contain, $gray;
 		border-radius: 24px;
@@ -57,3 +57,5 @@
 .col-md-6 {
 	padding: 0;
 }
+
+@import '_mailing_media';

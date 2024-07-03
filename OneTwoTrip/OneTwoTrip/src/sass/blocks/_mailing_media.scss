@@ -1,0 +1,58 @@
+// @media (max-width: 1297px) {
+	
+// }
+
+// @media (max-width: 1200px) {
+	
+// }
+
+// @media (max-width: 992px) {
+
+// }
+
+@media (max-width: 767px) {
+	.mailing {
+		&__wrapper {
+			height: 280px;
+			margin-bottom: 48px;
+			background: url('../../img/bg_mailing-media.png') no-repeat 5% 54%/22%;
+			h4 {
+				font-size: $font-size-22;
+				line-height: 26.4px;
+				padding: 24px 24px 0 24px;
+			}
+		}
+		&__items {
+			&-form {
+				padding: 66px 24px 0 24px;
+			}
+			&-title {
+				padding: 15px 24px 24px 24px;
+				text-align: center;
+			}
+			input {
+				width: 295px;
+				height: 48px;
+				padding: 0 0 5px 14px;
+			}
+			input::placeholder {
+				font-size: $font-size-16;
+			}
+			button {
+				width: 69px;
+			}
+		}
+	}
+}
+
+// @media (max-width: 576px) {
+	
+// }
+
+// @media (max-width: 376px) {
+
+// }
+		
+// @media (max-width: 321px) {
+	
+// }
