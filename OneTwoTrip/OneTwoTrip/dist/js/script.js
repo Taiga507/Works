@@ -1,61 +1,100 @@
-// $(document).ready(function() {
-// 	$('.dropdown').hover(
-// 		function() {
-// 			$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
-// 		},
-// 		function() {
-// 			$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
-// 	});
+// document.addEventListener('DOMContentLoaded', () => {
+// 	const handleAccordionDesktop = () => {
+// 		const width = window.innerWidth;
+// 		const footerAccordion = document.querySelectorAll(
+// 			'.footer .accordion, ' +
+// 			'.footer .accordion-item, ' +
+// 			'.footer .accordion-button, ' +
+// 			'.footer .accordion-collapse'
+
+// 		);
+
+// 		if (width >= 768) {
+// 			footerAccordion.forEach(accordion => {
+// 				accordion.classList.remove(
+// 					'accordion',
+// 					'accordion-flush',
+// 					'accordion-item',
+// 					'accordion-button',
+// 					'collapsed',
+// 					'accordion-collapse',
+// 					'collapse'
+// 				);
+// 				accordion.removeAttribute('data-bs-toggle');
+// 			});
+// 		}
+// 	};
+
+// 	window.addEventListener('resize', handleAccordionDesktop);
+// 	// console.log('resize');
+// 	window.addEventListener('orientationchange', handleAccordionDesktop);
+// 	// console.log('orientationchange');
+// 	handleAccordionDesktop();
 // });
 
-$document.addEventListener('DOMContentLoaded', function () {
-	const handleResize = () => {
-		const width = window.innerWidth;
-		const footerButton = document.getElementById('footerButton');
-		const footerCollapse = document.getElementById('footerCollapse');
+const handleAccordionDesktop = () => {
+	const width = window.innerWidth;
+	
+	const footerAccordion = document.getElementById('accordionFooter');
+	const footerAccordionItem = document.getElementById('accordionItemFooter');
+	// const footerAccordionButton = document.getElementById('accordionFooterButton');
+	const footerAccordionUlFirst = document.getElementById('footer_first');
+	const footerAccordionUlSecond = document.getElementById('footer_second');
+	const footerAccordionUlThird = document.getElementById('footer_third');
 
-		if (width >= 768) {
-			footerButton.style.display = 'none';
-			footerCollapse.classList.add('show');
-		} else {
-			footerButton.style.display = 'block';
-			footerCollapse.classList.remove('show');
-		}
-	};
+	const footerAccordionButton = document.getElementById('accordionFooterButton');
 
-	window.addEventListener('resize', handleResize);
-	handleResize();
+	console.log('footerAccordion:', footerAccordionButton.attributes);
+
+	if (width >= 768) {
+		footerAccordion.classList.remove('accordion', 'accordion-flush');
+		footerAccordionItem.classList.remove('accordion-item');
+		// footerAccordionButton.classList.remove('accordion-button', 'collapsed');
+		footerAccordionUlFirst.classList.remove('accordion-collapse', 'collapse');
+		footerAccordionUlSecond.classList.remove('accordion-collapse', 'collapse');
+		footerAccordionUlThird.classList.remove('accordion-collapse', 'collapse');
+
+		footerAccordionButton .removeAttribute('data-bs-toggle');
+		console.log('footerAccordion:', footerAccordionButton.attributes);
+	} else {
+		footerAccordion.classList.add('accordion', 'accordion-flush');
+		footerAccordionItem.classList.add('accordion-item');
+		// footerAccordionButton.classList.add('accordion-button', 'collapsed');
+		footerAccordionUlFirst.classList.add('accordion-collapse', 'collapse');
+		footerAccordionUlSecond.classList.add('accordion-collapse', 'collapse');
+		footerAccordionUlThird.classList.add('accordion-collapse', 'collapse');
+
+		footerAccordionButton.setAttribute('data-bs-toggle', 'collapse');
+	}
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+	window.addEventListener('resize', handleAccordionDesktop);
+	window.addEventListener('orientationchange', handleAccordionDesktop);
+	handleAccordionDesktop();
 });
 
-// // Функция для настройки аккордеона на мобильных устройствах
-// const setupAccordion = () => {
-// 	if (window.innerWidth < 768) { // меньше md (768px)
-// 	// Создаем HTML для аккордеона
-// 	const accordionHTML = `
-// 		<div class="col-md-3 accordion accordion-flush" id="accordionFlushExample">
-// 			<div class="accordion-item">
-// 				<h5>
-// 					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#footer_first" aria-expanded="false" aria-controls="footer_first">
-// 						Компания
-// 					</button>
-// 				</h5>
-// 				<div id="footer_first" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-// 					<ul class="list-unstyled footer__contacts-items">
-// 						<li><a class="footer__contacts-title" href="#">Отзывы</a></li>
-// 						<li><a class="footer__contacts-title" href="#">Помощь</a></li>
-// 						<li><a class="footer__contacts-title" href="#">Оферта</a></li>
-// 						<li><a class="footer__contacts-title" href="#">Конфиденциальность</a></li>
-// 					</ul>
-// 				</div>
-// 			</div>
-// 		</div>
-// 	`;
 
-// 	// Вставляем аккордеон перед основным контентом
-// 	document.getElementById('footerContent').insertAdjacentHTML('beforebegin', accordionHTML);
-// 	}
-// };
+// const footerAccordion2 = document.querySelectorAll(
+// 	'.footer .accordion, ' +
+// 	'.footer .accordion-item, ' +
+// 	'.footer .accordion-button, ' +
+// 	'.footer .accordion-collapse'
+// );
 
-// // Вызываем функцию при загрузке страницы и при изменении размера окна
-// setupAccordion();
-// window.addEventListener('resize', setupAccordion);
+// footerAccordion2.forEach(accordion => {
+		// 	accordion.classList.remove(
+		// 		'accordion',
+		// 		'accordion-flush',
+		// 		'accordion-item',
+		// 		'accordion-button',
+		// 		'collapsed',
+		// 		'accordion-collapse',
+		// 		'collapse'
+		// 	);
+		// 	accordion.removeAttribute('data-bs-toggle');
+		// });
+
+		// footerAccordion.forEach(footerAccordion => {
+		// 	footerAccordion.classList.remove('accordion', 'accordion-flush');
+		// })
