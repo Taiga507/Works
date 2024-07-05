@@ -10,8 +10,157 @@
 
 <body>
 	<header class="header">
-		<div class="container d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
-			<a href="/">
+		<div class="container">
+			<div class="header__wrapper d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
+				<a href="/">
+					<img class="logo" src="icons/logo.svg" alt="Logo">
+				</a>
+				
+				<nav>
+					<ul class="header__nav">
+	
+						<li class="dropdown">
+							<a class="header__title" href="#">Бизнес-путешествия</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Бухгалтерия</a></li>
+								<li><a class="dropdown-item" href="#">Статьи</a></li>
+								<li><a class="dropdown-item" href="#">Советы экспертов</a></li>
+								<li><a class="dropdown-item" href="#">Исследования</a></li>
+								<li><a class="dropdown-item" href="#">Чек-листы</a></li>
+							</ul>
+						</li>
+	
+						<li class="dropdown">
+							<a class="header__title" href="#">Путеводители</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Путеводитель 1</a></li>
+								<li><a class="dropdown-item" href="#">Путеводитель 2</a></li>
+								<li><a class="dropdown-item" href="#">Путеводитель 3</a></li>
+							</ul>
+						</li>
+	
+						<li class="dropdown">
+							<a class="header__title" href="#">Новости</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Новость 1</a></li>
+								<li><a class="dropdown-item" href="#">Новость 2</a></li>
+								<li><a class="dropdown-item" href="#">Новость 3</a></li>
+							</ul>
+						</li>
+	
+						<li class="dropdown">
+							<a class="header__title" href="#">Клиенты</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Клиент 1</a></li>
+								<li><a class="dropdown-item" href="#">Клиент 2</a></li>
+								<li><a class="dropdown-item" href="#">Клиент 3</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+		
+				<div class="header__btn">
+					<button class="btn btn-dark" type="button">Стать клиентом</button>
+				</div>
+	
+				<div class="header__hamburger" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+	
+				<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+					<div class="header__hamburger-items">
+						<a href="/">
+							<img class="logo" src="icons/logo.svg" alt="Logo">
+						</a>
+		
+						<div class="header__hamburger header__hamburger-item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+	
+					<div class="offcanvas-body">
+						<nav>
+							<div class="header__hamburger-nav">
+								<div class="accordion accordion-flush" id="accordionHamburger">
+	
+									<div class="accordion-item" id="accordionHamburgerItem">
+										<div class="header__title">
+											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion_first" aria-expanded="false" aria-controls="accordion_first">
+												Бизнес-путешествия
+											</button>
+										</div>
+										<div id="accordion_first" class="accordion-collapse collapse" data-bs-parent="#accordionHamburger">
+											<ul>
+												<li><a class="" href="#">Бухгалтерия</a></li>
+												<li><a class="" href="#">Статьи</a></li>
+												<li><a class="" href="#">Советы экспертов</a></li>
+												<li><a class="" href="#">Исследования</a></li>
+												<li><a class="" href="#">Чек-листы</a></li>
+											</ul>
+										</div>
+									</div>
+	
+									<div class="accordion-item">
+										<div class="header__title">
+											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion_second" aria-expanded="false" aria-controls="accordion_second">
+												Путеводители
+											</button>
+										</div>
+										<div id="accordion_second" class="accordion-collapse collapse" data-bs-parent="#accordionHamburger">
+											<ul>
+												<li><a class="" href="#">Путеводитель 1</a></li>
+												<li><a class="" href="#">Путеводитель 2</a></li>
+												<li><a class="" href="#">Путеводитель 3</a></li>
+											</ul>
+										</div>
+									</div>
+	
+									<div class="accordion-item">
+										<div class="header__title">
+											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion_third" aria-expanded="false" aria-controls="accordion_third">
+												Новости
+											</button>
+										</div>
+										<div id="accordion_third" class="accordion-collapse collapse" data-bs-parent="#accordionHamburger">
+											<ul>
+												<li><a class="" href="#">Новость 1</a></li>
+												<li><a class="" href="#">Новость 2</a></li>
+												<li><a class="" href="#">Новость 3</a></li>
+											</ul>
+										</div>
+									</div>
+	
+									<div class="accordion-item">
+										<div class="header__title">
+											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion_fourth" aria-expanded="false" aria-controls="accordion_fourth">
+												Клиенты
+											</button>
+										</div>
+										<div id="accordion_fourth" class="accordion-collapse collapse" data-bs-parent="#accordionHamburger">
+											<ul>
+												<li><a class="" href="#">Клиент 1</a></li>
+												<li><a class="" href="#">Клиент 2</a></li>
+												<li><a class="" href="#">Клиент 3</a></li>
+											</ul>
+										</div>
+									</div>
+									
+								</div>
+	
+								<div class="header__hamburger-adver">
+									<p>OneTwoTrip для бизнеса —<br>онлайн-сервис для организации<br>командировок</p>
+									<button type="button">Стать клиентом</button>
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<!-- <a href="/">
 				<img class="logo" src="icons/logo.svg" alt="Logo">
 			</a>
 			
@@ -157,7 +306,7 @@
 						</div>
 					</nav>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</header>
 		

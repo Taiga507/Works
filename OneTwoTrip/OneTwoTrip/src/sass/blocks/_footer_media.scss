@@ -14,7 +14,7 @@
 	.footer {
 		&__wrapper {
 			width: 343px;
-			margin: 0 16px;
+			margin: 0 auto;
 		}
 		&__divider {
 			display: none;
@@ -48,24 +48,26 @@
 			}
 		}
 		&__social {
-			margin: 32px 0 16px 80px;
+			margin: 32px 0 16px 86px;
 			&-title {
 				text-align: center;
 			}
 		}
 		.accordion-button.collapsed::after {
-			background-size: 24px;
-			width: 24px;
-			height: 24px;
+			background-size: 22px;
+			width: 22px;
+			height: 22px;
 		}
 		.accordion-button:not(.collapsed)::after {
-			background-size: 24px;
-			width: 24px;
-			height: 24px;
+			background-size: 22px;
+			width: 22px;
+			height: 22px;
+		}
+		&__app {
+			width: 343px;
 		}
 		&__apps {
-			padding: 0;
-			margin: 49px 0 0 42px;
+			padding: 49px 0 0 48px;
 			h5 {
 				display: none;
 			}
