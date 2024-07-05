@@ -28,7 +28,7 @@
 		&-phone {
 			font-family: $font-family-inter;
 			font-size: $font-size-16;
-			line-height: 24px;
+			line-height: 29px;
 			color: $color-primary;
 		}
 		&-email {
@@ -146,21 +146,22 @@
 	&__copyright {
 		height: 96px;
 		p {
+			width: 996px;
 			font-family: $font-family-inter;
 			font-size: $font-size-12;
 			line-height: 16px;
 			color: $silver;
 			padding-top: 16px;
+			margin-left: 103px;
 		}
 	}
-	// .accordion-item {
-	// 	h5 {
-	// 		display: block;
-	// 	}
-	// 	.accordion-button {
-	// 		display: none;
-	// 	}
-	// }
+	.accordion-button {
+		font-family: $font-family-inter;
+		font-size: $font-size-12;
+		line-height: 20px;
+		color: $blue-gray;
+		cursor: default;
+	}
 }
 
 @import '_footer_media';

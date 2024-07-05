@@ -1,100 +1,43 @@
-// document.addEventListener('DOMContentLoaded', () => {
-// 	const handleAccordionDesktop = () => {
-// 		const width = window.innerWidth;
-// 		const footerAccordion = document.querySelectorAll(
-// 			'.footer .accordion, ' +
-// 			'.footer .accordion-item, ' +
-// 			'.footer .accordion-button, ' +
-// 			'.footer .accordion-collapse'
-
-// 		);
-
-// 		if (width >= 768) {
-// 			footerAccordion.forEach(accordion => {
-// 				accordion.classList.remove(
-// 					'accordion',
-// 					'accordion-flush',
-// 					'accordion-item',
-// 					'accordion-button',
-// 					'collapsed',
-// 					'accordion-collapse',
-// 					'collapse'
-// 				);
-// 				accordion.removeAttribute('data-bs-toggle');
-// 			});
-// 		}
-// 	};
-
-// 	window.addEventListener('resize', handleAccordionDesktop);
-// 	// console.log('resize');
-// 	window.addEventListener('orientationchange', handleAccordionDesktop);
-// 	// console.log('orientationchange');
-// 	handleAccordionDesktop();
-// });
-
 const handleAccordionDesktop = () => {
 	const width = window.innerWidth;
 	
 	const footerAccordion = document.getElementById('accordionFooter');
-	const footerAccordionItem = document.getElementById('accordionItemFooter');
-	// const footerAccordionButton = document.getElementById('accordionFooterButton');
-	const footerAccordionUlFirst = document.getElementById('footer_first');
-	const footerAccordionUlSecond = document.getElementById('footer_second');
-	const footerAccordionUlThird = document.getElementById('footer_third');
-
-	const footerAccordionButton = document.getElementById('accordionFooterButton');
-
-	console.log('footerAccordion:', footerAccordionButton.attributes);
+	const footerAccordionItem = document.querySelectorAll('.footer .col-md-3')
+	const footerAccordionButton = document.querySelectorAll('.footer .accordion-button');
+	const footerAccordionUls = [
+		document.getElementById('footer_first'),
+		document.getElementById('footer_second'),
+		document.getElementById('footer_third')
+	];
 
 	if (width >= 768) {
 		footerAccordion.classList.remove('accordion', 'accordion-flush');
-		footerAccordionItem.classList.remove('accordion-item');
-		// footerAccordionButton.classList.remove('accordion-button', 'collapsed');
-		footerAccordionUlFirst.classList.remove('accordion-collapse', 'collapse');
-		footerAccordionUlSecond.classList.remove('accordion-collapse', 'collapse');
-		footerAccordionUlThird.classList.remove('accordion-collapse', 'collapse');
-
-		footerAccordionButton .removeAttribute('data-bs-toggle');
-		console.log('footerAccordion:', footerAccordionButton.attributes);
+		footerAccordionItem.forEach(e => {
+			e.classList.remove('accordion-item');
+		})
+		footerAccordionButton.forEach(e => {
+			e.classList.remove('collapsed');
+			e.removeAttribute('data-bs-toggle');
+		})
+		footerAccordionUls.forEach(e => {
+			e.classList.remove('accordion-collapse', 'collapse');
+		});
 	} else {
 		footerAccordion.classList.add('accordion', 'accordion-flush');
-		footerAccordionItem.classList.add('accordion-item');
-		// footerAccordionButton.classList.add('accordion-button', 'collapsed');
-		footerAccordionUlFirst.classList.add('accordion-collapse', 'collapse');
-		footerAccordionUlSecond.classList.add('accordion-collapse', 'collapse');
-		footerAccordionUlThird.classList.add('accordion-collapse', 'collapse');
-
-		footerAccordionButton.setAttribute('data-bs-toggle', 'collapse');
+		footerAccordionItem.forEach(e => {
+			e.classList.add('accordion-item');
+		})
+		footerAccordionButton.forEach(e => {
+			e.classList.add('collapsed');
+			e.setAttribute('data-bs-toggle', 'collapse');
+		})
+		footerAccordionUls.forEach(e => {
+			e.classList.add('accordion-collapse', 'collapse');
+		});
 	}
 };
 
 document.addEventListener('DOMContentLoaded', () => {
 	window.addEventListener('resize', handleAccordionDesktop);
-	window.addEventListener('orientationchange', handleAccordionDesktop);
 	handleAccordionDesktop();
 });
-
-
-// const footerAccordion2 = document.querySelectorAll(
-// 	'.footer .accordion, ' +
-// 	'.footer .accordion-item, ' +
-// 	'.footer .accordion-button, ' +
-// 	'.footer .accordion-collapse'
-// );
-
-// footerAccordion2.forEach(accordion => {
-		// 	accordion.classList.remove(
-		// 		'accordion',
-		// 		'accordion-flush',
-		// 		'accordion-item',
-		// 		'accordion-button',
-		// 		'collapsed',
-		// 		'accordion-collapse',
-		// 		'collapse'
-		// 	);
-		// 	accordion.removeAttribute('data-bs-toggle');
-		// });
-
-		// footerAccordion.forEach(footerAccordion => {
-		// 	footerAccordion.classList.remove('accordion', 'accordion-flush');
-		// })
