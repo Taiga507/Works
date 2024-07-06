@@ -9,9 +9,36 @@
 	}
 }
 
-// @media (max-width: 1200px) {
-	
-// }
+@media (max-width: 1200px) {
+	.tile {
+		&__wrapper {
+			h1 {
+				font-size: $font-size-64;
+			}
+		}
+		&__first {
+			&-descr {
+				width: 540px;
+			}
+			&-second {
+				.tile__first-descr {
+					width: 260px;
+				}
+			}
+			&-title {
+				font-size: $font-size-26;
+			}
+		}
+		&__second {
+			&-descr {
+				width: 260px;
+			}
+			&-title {
+				font-size: $font-size-22;
+			}
+		}
+	}
+}
 
 // @media (max-width: 992px) {
 

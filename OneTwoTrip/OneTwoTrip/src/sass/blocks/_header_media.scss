@@ -1,6 +1,32 @@
-// @media (max-width: 1200px) {
-	
-// }
+@media (max-width: 1200px) {
+	.header {
+		&__wrapper {
+			flex-wrap: nowrap !important;
+			img {
+				width: 250px;
+				height: 36px;
+			}
+		}
+		&__nav {
+			grid-template-columns: 173px 120px 79px 79px;
+			width: 487px;
+			gap: 5px;
+		}
+		&__title {
+			font-size: $font-size-15;
+			padding: 8px 0 0 0;
+			text-align: center;
+		}
+		&__btn {
+			button {
+				width: 150px;
+				height: 36px;
+				padding: 0;
+				font-size: $font-size-15;
+			}
+		}
+	}
+}
 
 // @media (max-width: 992px) {
 	// 767

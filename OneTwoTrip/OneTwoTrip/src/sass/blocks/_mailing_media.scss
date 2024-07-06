@@ -10,9 +10,22 @@
 	}
 }
 
-// @media (max-width: 1200px) {
-	
-// }
+@media (max-width: 1200px) {
+	.mailing {
+		&__items {
+			&-form {
+				input {
+					width: 250px;
+				}
+			}
+		}
+		&__wrapper {
+			h4 {
+				font-size: $font-size-28;
+			}
+		}
+	}
+}
 
 // @media (max-width: 992px) {
 

@@ -9,9 +9,21 @@
 	}
 }
 
-// @media (max-width: 1200px) {
-	
-// }
+@media (max-width: 1200px) {
+	.articles {
+		&__img {
+			img {
+				width: 290px;
+				height: 188px;
+			}
+		}
+		&__items {
+			h3 {
+				font-size: $font-size-28;
+			}
+		}
+	}
+}
 
 // @media (max-width: 992px) {
 
