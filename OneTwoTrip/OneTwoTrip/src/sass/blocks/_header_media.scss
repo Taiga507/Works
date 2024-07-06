@@ -193,14 +193,23 @@
 	}
 }
 
-// @media (max-width: 576px) {
-	
-// }
-
-// @media (max-width: 376px) {
-
-// }
-		
-// @media (max-width: 321px) {
-	
-// }
+@media (max-width: 384px) {
+	.header {
+		&__wrapper {
+			width: 280px;
+		}
+		&__hamburger {
+			padding-left: 45px;
+			&-nav {
+				width: 280px;
+			}
+			&-adver {
+				width: 280px;
+				margin: 0 7px;
+				button {
+					width: 280px;
+				}
+			}
+		}
+	}
+}

@@ -88,14 +88,15 @@
 	}
 }
 
-// @media (max-width: 576px) {
-	
-// }
-
-// @media (max-width: 376px) {
-
-// }
-		
-// @media (max-width: 321px) {
-	
-// }
+@media (max-width: 384px) {
+	.mailing {
+		&__wrapper {
+			background-position: 10% 54%;
+		}
+		&__items {
+			&-form {
+				padding-top: 45px;
+			}
+		}
+	}
+}
