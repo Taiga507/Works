@@ -7,7 +7,7 @@
 		&__descr {
 			width: 400px;
 			h4 {
-				font-size: $font-size-26
+				font-size: $font-size-26;
 			}
 			p {
 				font-size: $font-size-14;
@@ -16,9 +16,31 @@
 	}
 }
 
-// @media (max-width: 992px) {
-
-// }
+@media (max-width: 992px) {
+	.advert {
+		&__wrapper{
+			background-position: 60% 100%;
+			margin-bottom: 30px;
+		}
+		&__descr {
+			width: 320px;
+			h4 {
+				font-size: $font-size-22;
+			}
+			p {
+				font-size: $font-size-12;
+			}
+		}
+		&__btn {
+			padding: 70px 20px 0 0;
+			button {
+				width: 170px;
+				font-size: $font-size-16;
+				
+			}
+		}
+	}
+}
 
 @media (max-width: 767px) {
 	.advert {

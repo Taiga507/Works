@@ -9,9 +9,35 @@
 	}
 }
 
-// @media (max-width: 992px) {
-
-// }
+@media (max-width: 992px) {
+	.footer {
+		&__contacts {
+			margin-bottom: 50px;
+			.col-md-3 {
+				padding: 0;
+			}
+			&-email {
+				font-size: $font-size-12;
+			}
+		}
+		&__social {
+			width: 163px;
+		}
+		&__awards {
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+		&__payment {
+			padding: 0;
+			p {
+				padding: 48px 0 0 5px;
+			}
+		}
+		&__copyright {
+			margin-top: 35px;
+		}
+	}
+}
 
 @media (max-width: 767px) {
 	.footer {

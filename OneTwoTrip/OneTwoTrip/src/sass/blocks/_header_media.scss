@@ -28,9 +28,34 @@
 	}
 }
 
-// @media (max-width: 992px) {
-	// 767
-// }
+@media (max-width: 992px) {
+	.header {
+		margin-bottom: 10px;
+		&__wrapper {
+			img {
+				width: 180px;
+				height: 30px;
+				margin: 0 7px 0 15px;
+			}
+		}
+		&__nav {
+			grid-template-columns: 150px 110px 70px 70px;
+			width: 407px;
+			gap: 1px;
+		}
+		&__title {
+			font-size: $font-size-14;
+		}
+		&__btn {
+			margin: 0;
+			button {
+				width: 140px;
+				height: 33px;
+				font-size: $font-size-14;
+			}
+		}
+	}
+}
 
 @media (max-width: 767px) {
 	.container {
@@ -41,7 +66,6 @@
 		padding: 0;
 		&__wrapper {
 			width: 343px;
-			// margin: 0 0 0 16px;
 			margin: 0 auto;
 			padding: 21px 0 0 0;
 			justify-content: start !important;
