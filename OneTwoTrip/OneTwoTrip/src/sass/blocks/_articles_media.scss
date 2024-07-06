@@ -1,6 +1,13 @@
-// @media (max-width: 1297px) {
-	
-// }
+@media (max-width: 1296px) {
+	.articles {
+		&__img {
+			img {
+				width: 350px;
+				height: 220px;
+			}
+		}
+	}
+}
 
 // @media (max-width: 1200px) {
 	

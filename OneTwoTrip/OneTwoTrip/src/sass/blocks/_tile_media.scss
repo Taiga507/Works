@@ -1,6 +1,13 @@
-// @media (max-width: 1297px) {
-	
-// }
+@media (max-width: 1296px) {
+	.tile {
+		&__first {
+			max-width: 1200px;
+		}
+		&__second {
+			max-width: 1200px;
+		}
+	}
+}
 
 // @media (max-width: 1200px) {
 	

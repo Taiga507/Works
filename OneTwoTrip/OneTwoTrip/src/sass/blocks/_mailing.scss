@@ -11,8 +11,8 @@
 			padding-left: 140px;
 		}
 	}
-	&__items{
-		&-form{
+	&__items {
+		&-form {
 			display: flex;
 			flex-direction: row;
 			padding: 21px 0 0 96px;
@@ -41,7 +41,7 @@
 				}
 			}
 		}
-		&-title{
+		&-title {
 			font-family: $font-family-inter;
 			font-size: $font-size-10;
 			color: rgba(0, 0, 0, 0.5);

@@ -1,6 +1,12 @@
-// @media (max-width: 1297px) {
-	
-// }
+@media (max-width: 1296px) {
+	.footer {
+		&__copyright {
+			p {
+				margin-left: 52px;
+			}
+		}
+	}
+}
 
 // @media (max-width: 1200px) {
 	

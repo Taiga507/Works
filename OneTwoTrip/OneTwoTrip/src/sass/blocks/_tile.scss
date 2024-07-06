@@ -59,14 +59,14 @@
 		&-one {
 			position: relative;
 			img {
-				width: 792px;
+				width: 100%;
 				height: 440px;
 			}
 		}
 		&-two {
 			position: relative;
 			img {
-				width: 384px;
+				width: 100%;
 				height: 440px;
 			}
 		}
@@ -108,7 +108,7 @@
 		&-img {
 			position: relative;
 			img {
-				width: 384px;
+				width: 100%;
 				height: 220px;
 			}
 			&:before {
