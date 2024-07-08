@@ -32,9 +32,6 @@
 			position: absolute;
 			top: 397px;
 		}
-		&-title {
-			width: 744px;
-		}
 		&-second {
 			position: relative;
 			.tile__first-title {
@@ -44,6 +41,7 @@
 		&-title {
 			position: inherit;
 			bottom: 0;
+			width: 744px;
 			font-family: $font-family-golos-textmedium;
 			font-size: $font-size-32;
 			color: $color-white;

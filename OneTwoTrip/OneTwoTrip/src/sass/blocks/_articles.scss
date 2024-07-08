@@ -72,4 +72,16 @@
 	}
 }
 
+.articles {
+	&__article {
+		&-descr {
+			margin: 16px 0;
+		}
+		h2 {
+			line-height: 62.4px;
+			padding-bottom: 28px;
+		}
+	}
+}
+
 @import '_articles_media';

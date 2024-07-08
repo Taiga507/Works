@@ -39,4 +39,33 @@
 	}
 }
 
+.advert {
+	&__article{
+		&-wrapper {
+			max-width: 790px;
+			flex-direction: column;
+			background-position: 92% 83%;
+			background-size: 39%;
+			margin: 27px 0 160px 40px;
+		}
+		&-descr {
+			width: 334px;
+			h4 {
+				font-size: $font-size-24;
+				line-height: 28.8px;
+			}
+			p {
+				display: none;
+			}
+		}
+		&-btn {
+			padding: 39px 0 24px 24px;
+			button {
+				font-size: $font-size-16;
+				width: 295px;
+			}
+		}
+	}
+}
+
 @import '_advert_media';
