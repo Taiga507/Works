@@ -74,6 +74,9 @@
 
 .articles {
 	&__article {
+		&-wrapper {
+			margin-bottom: 160px;
+		}
 		&-descr {
 			margin: 16px 0;
 		}

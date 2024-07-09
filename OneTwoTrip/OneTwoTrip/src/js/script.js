@@ -41,3 +41,27 @@ document.addEventListener('DOMContentLoaded', () => {
 	window.addEventListener('resize', handleAccordionDesktop);
 	handleAccordionDesktop();
 });
+
+// Slider
+document.addEventListener('DOMContentLoaded', () => {
+    const slider = tns({
+        container: '.my-slider',
+        items: 1,
+        slideBy: 'page',
+        autoplay: false,
+        nav: false,
+		gutter: 24,
+		controlsContainer: '.carousel__controls',
+        responsive: {
+			350: {
+				items: 1
+  			},
+            640: {
+                items: 2
+            },
+            900: {
+                items: 3
+            }
+        }
+    });
+});
