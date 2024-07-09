@@ -53,15 +53,12 @@ document.addEventListener('DOMContentLoaded', () => {
 		gutter: 24,
 		controlsContainer: '.carousel__controls',
         responsive: {
-			350: {
-				items: 1
-  			},
-            640: {
-                items: 2
+            767: {
+                items: 1
             },
             900: {
                 items: 3
             }
-        }
+        },
     });
 });

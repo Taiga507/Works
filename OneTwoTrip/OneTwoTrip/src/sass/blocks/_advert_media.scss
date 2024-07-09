@@ -73,6 +73,15 @@
 			}
 		}
 	}
+	.advert {
+		&__article{
+			&-descr {
+				p {
+					display: block;
+				}
+			}
+		}
+	}
 }
 
 @media (max-width: 384px) {

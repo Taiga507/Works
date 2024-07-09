@@ -86,6 +86,14 @@
 			}
 		}
 	}
+
+	.mailing {
+		&__article {
+			&-wrapper {
+				background: $gray;
+			}
+		}
+	}
 }
 
 @media (max-width: 384px) {
