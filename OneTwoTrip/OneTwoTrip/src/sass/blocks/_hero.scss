@@ -79,7 +79,7 @@
 		&-subtitle {
 			display: flex;
 			position: inherit;
-			width: 1152px;
+			max-width: 1152px;
 			margin: 0 0 34px 24px;
 			gap: 8px;
 		}

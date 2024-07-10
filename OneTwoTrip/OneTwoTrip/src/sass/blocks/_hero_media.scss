@@ -51,6 +51,17 @@
 @media (max-width: 384px) {
 	.hero {
 		&__wrapper {
+			width: 320px;
+		}
+		&__mobile {
+			width: 320px;
+		}
+	}
+}
+
+@media (max-width: 320px) {
+	.hero {
+		&__wrapper {
 			width: 280px;
 		}
 		&__mobile {

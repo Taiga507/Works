@@ -196,6 +196,30 @@
 @media (max-width: 384px) {
 	.header {
 		&__wrapper {
+			width: 320px;
+		}
+		&__hamburger {
+			padding-left: 90px;
+			&-nav {
+				width: 320px;
+			}
+			&-adver {
+				width: 320px;
+				margin: 0 7px;
+				button {
+					width: 320px;
+				}
+			}
+		}
+		.offcanvas-body {
+			margin-left: 17px;
+		}
+	}
+}
+
+@media (max-width: 320px) {
+	.header {
+		&__wrapper {
 			width: 280px;
 		}
 		&__hamburger {
@@ -205,11 +229,13 @@
 			}
 			&-adver {
 				width: 280px;
-				margin: 0 7px;
 				button {
 					width: 280px;
 				}
 			}
+		}
+		.offcanvas-body {
+			margin-left: 8px;
 		}
 	}
 }

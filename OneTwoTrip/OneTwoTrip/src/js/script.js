@@ -53,10 +53,13 @@ document.addEventListener('DOMContentLoaded', () => {
 		gutter: 24,
 		controlsContainer: '.carousel__controls',
         responsive: {
-            767: {
+			320: {
                 items: 1
             },
-            900: {
+			768: {
+                items: 2
+            },
+			992: {
                 items: 3
             }
         },

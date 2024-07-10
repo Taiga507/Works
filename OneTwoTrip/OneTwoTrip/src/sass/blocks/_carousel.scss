@@ -15,14 +15,22 @@
 		}
 	}
 	&__controls {
+		position: relative;
+		width: 100%;
 		display: flex;
-		position: absolute;
-		top: 67%;
-		left: 17%;
-		transform: translateY(-50%);
-		width: 1256px;
 		justify-content: space-between;
-		z-index: 1;
+		top: 50%;
+		transform: translateY(-50%);
+		&-prev {
+			position: absolute;
+			top: -135px;
+			left: -26px;
+		}
+		&-next {
+			position: absolute;
+			top: -135px;
+			right: -26px;
+		}
 		button {
 			background: none;
 			border: none;
