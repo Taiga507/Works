@@ -43,25 +43,24 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Slider
-document.addEventListener('DOMContentLoaded', () => {
-    const slider = tns({
-        container: '.my-slider',
-        items: 1,
-        slideBy: 'page',
-        autoplay: false,
-        nav: false,
-		gutter: 24,
-		controlsContainer: '.carousel__controls',
-        responsive: {
-			320: {
-                items: 1
-            },
-			768: {
-                items: 2
+document.addEventListener('DOMContentLoaded', function () {
+	new Glide('.glide', {
+		type: 'carousel',
+		startAt: 0,
+		perView: 3,
+		gap: 11,
+		breakpoints: {
+			1200: {
+                perView: 3
             },
 			992: {
-                items: 3
+                perView: 2,
+				peek: { before: 0, after: 0 }
+            },
+			767: {
+                perView: 1,
+				peek: { before: 0, after: 35 }
             }
-        },
-    });
+	  	}
+	}).mount();
 });

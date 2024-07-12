@@ -1,0 +1,101 @@
+@media (max-width: 1200px) {
+	.advert {
+		&__wrapper{
+			background-position: 55% 52%;
+			margin-bottom: 60px;
+		}
+		&__descr {
+			width: 400px;
+			h4 {
+				font-size: $font-size-26;
+			}
+			p {
+				font-size: $font-size-14;
+			}
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	.advert {
+		&__wrapper{
+			background-position: 60% 100%;
+			margin-bottom: 30px;
+		}
+		&__descr {
+			width: 320px;
+			h4 {
+				font-size: $font-size-22;
+			}
+			p {
+				font-size: $font-size-12;
+			}
+		}
+		&__btn {
+			padding: 70px 20px 0 0;
+			button {
+				width: 170px;
+				font-size: $font-size-16;
+				
+			}
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.advert {
+		&__wrapper {
+			width: 343px;
+			height: 400px;
+			margin: 24px auto 0 auto;
+			background-position: 60% 100%;
+			background-size: 100%;
+		}
+		&__descr {
+			width: 343px;
+			margin: 0;
+			padding: 26px 24px 16px 24px;
+			h4 {
+				font-size: $font-size-24;
+				line-height: 28.8px;
+			}
+			p {
+				padding: 0;
+			}
+		}
+		&__btn {
+			display: flex;
+			align-items: flex-end;
+			padding: 0 24px 25px 24px;
+			button {
+				width: 295px;
+				font-size: $font-size-16;
+			}
+		}
+	}
+	.advert {
+		&__article{
+			&-descr {
+				p {
+					display: block;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 384px) {
+	.advert {
+		&__wrapper {
+			width: 320px;
+		}
+	}
+}
+
+@media (max-width: 320px) {
+	.advert {
+		&__wrapper {
+			width: 280px;
+		}
+	}
+}

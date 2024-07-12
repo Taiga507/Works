@@ -1,7 +1,4 @@
 .carousel {
-	.my-slider {
-		height: 220px;
-	}
 	&__wrapper {
 		margin: 0 40px 160px 40px;
 		h2 {
@@ -40,6 +37,21 @@
 				max-height: 53px;
 			}
 		}
+	}
+	.tile__second-img {
+		img {
+			width: 100%;
+		}
+		&:before {
+			width: 100%;
+		}
+	}
+	.glide__slides {
+		gap: 19px;
+	}
+	li {
+		margin-left: -7px !important;
+		margin-right: 10px !important;
 	}
 }
 
