@@ -47,22 +47,13 @@
 		}
 		&__first {
 			&-one {
-				height: 300px;
 				img {
-					height: 100%;
-					&:hover {
-						transform: none;
-					}
+					height: 300px;
 				}
-				
 			}
 			&-two {
-				height: 300px;
 				img {
-					height: 100%;
-					&:hover {
-						transform: none;
-					}
+					height: 300px;
 				}
 			}
 			&-descr {
@@ -95,12 +86,8 @@
 				margin: 0 0 0 15px;
 			}
 			&-img {
-				height: 207px;
 				img {
-					height: 100%;
-					&:hover {
-						transform: none;
-					}
+					height: 207px;
 				}
 			}
 		}
@@ -128,7 +115,6 @@
 			}
 			&-one {
 				width: 343px;
-				overflow: visible;
 				img {
 					position: relative;
 					width: 343px;
@@ -136,15 +122,14 @@
 					border-radius: 24px 24px 0 0;
 				}
 				@include before_main-bg;
-				
 			}
 			&-descr {
-				top: 420px;
+				width: 343px;
+				top: 436px;
 			}
 			&-title {
 				width: 295px;
-				font-size: $font-size-32;
-				line-height: 35.2px;
+				line-height: 38.4px;
 				margin: 0 0 16px 24px;
 			}
 			&-subtitle {
@@ -165,7 +150,6 @@
 					margin: 0;
 				}
 				.tile__first-title {
-					width: 343px;
 					font-size: $font-size-24;
 					color: $color-primary;
 					line-height: 28.8px;
@@ -198,10 +182,7 @@
 					margin: 0;
 				}
 				.tile__second-title {
-					width: 343px;
-					font-size: $font-size-24;
 					color: $color-primary;
-					line-height: 28.8px;
 					margin: 32px 0 16px 0;
 				}
 				.tile__second-subtitle {
@@ -219,7 +200,6 @@
 			height: 160px;
 			background: url('../../img/bg-tile-mobile.png') no-repeat 50% 100%/100% 250%;
 			border-radius: 0 0 24px 24px;
-			z-index: 0;
 		}
 	}
 }
@@ -238,20 +218,12 @@
 			}
 			&-second {
 				width: 320px;
-				.tile__first-title {
-					width: 320px;
-				}
 			}
 			&-descr {
 				width: 320px;
 			}
 			&-title {
 				width: 230px;
-			}
-		}
-		&__second {
-			.tile__second-title {
-				width: 320px;
 			}
 		}
 		&__mobile {
@@ -274,21 +246,12 @@
 			}
 			&-second {
 				width: 280px;
-				
-				.tile__first-title {
-					width: 280px;
-				}
 			}
 			&-descr {
 				width: 280px;
 			}
 			&-title {
 				width: 240px;
-			}
-		}
-		&__second {
-			.tile__second-title {
-				width: 280px;
 			}
 		}
 		&__mobile {

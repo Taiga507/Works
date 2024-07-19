@@ -1,24 +1,45 @@
-@media (max-width: 992px) {
+@media (max-width: 1296px) {
 	.articles {
-		&__descr {
-			&:hover {
-				background-color: inherit;
-				.articles__img {
-					img {
-						transform: none;
-					}
-				}
-				.articles__item-title {
-					background-color: $gray;
-				}
+		&__img {
+			img {
+				width: 350px;
+				height: 220px;
 			}
 		}
+	}
+}
+
+@media (max-width: 1200px) {
+	.articles {
+		&__img {
+			img {
+				width: 290px;
+				height: 188px;
+			}
+		}
+		&__items {
+			h3 {
+				font-size: $font-size-28;
+			}
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	.articles {
 		h2 {
 			font-size: $font-size-60;
 			line-height: 65px;
 		}
+		&__img {
+			img {
+				width: 220px;
+				height: 150px;
+			}
+		}
 		&__items {
 			h3 {
+				width: 440px;
 				font-size: $font-size-24;
 				margin-top: 8px;
 			}
@@ -45,15 +66,12 @@
 		}
 		&__img {
 			img {
+				width: 343px;
 				height: 140px;
 			}
 		}
 		&__descr {
-			flex-wrap: wrap;
 			margin: 0 0 48px 0;
-			.col-md-8 {
-				padding: 0;
-			}
 		}
 		&__items {
 			h3 {
@@ -78,6 +96,11 @@
 		&__wrapper {
 			width: 320px;
 		}
+		&__img {
+			img {
+				width: 320px;
+			}
+		}
 		&__items {
 			h3 {
 				width: 320px;
@@ -90,6 +113,11 @@
 	.articles {
 		&__wrapper {
 			width: 280px;
+		}
+		&__img {
+			img {
+				width: 280px;
+			}
 		}
 		&__items {
 			h3 {
