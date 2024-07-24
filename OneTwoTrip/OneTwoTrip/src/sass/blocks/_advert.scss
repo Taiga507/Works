@@ -42,11 +42,11 @@
 .advert {
 	&__article{
 		&-wrapper {
-			max-width: 790px;
+			width: 790px;
 			flex-direction: column;
 			background-position: 92% 83%;
 			background-size: 39%;
-			margin: 27px 0 160px 40px;
+			margin: 0 0 160px 40px;
 		}
 		&-descr {
 			width: 334px;
@@ -63,6 +63,17 @@
 			button {
 				font-size: $font-size-16;
 				width: 295px;
+			}
+		}
+		&-chapter {
+			display: flex;
+			justify-content: space-between;
+			align-items: end;
+			.chapter__social {
+				margin-bottom: 160px;
+				p {
+					margin: 0;
+				}
 			}
 		}
 	}
