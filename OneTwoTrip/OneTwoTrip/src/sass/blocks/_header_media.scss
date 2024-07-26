@@ -1,7 +1,6 @@
 @media (max-width: 1200px) {
 	.header {
 		&__wrapper {
-			flex-wrap: nowrap !important;
 			img {
 				width: 250px;
 				height: 36px;
@@ -68,7 +67,6 @@
 			width: 343px;
 			margin: 0 auto;
 			padding: 21px 0 0 0;
-			justify-content: start !important;
 		}
 		img {
 			width: 206px;
@@ -88,7 +86,7 @@
 			justify-content: space-between;
 			height: 24px;
 			background: $color-white;
-			padding: 5px 0 7px 108px;
+			padding: 5px 0 7px 101px;
 			span {
 				display: block;
 				width: 18px;
@@ -123,7 +121,7 @@
 				padding: 21px 0 0 18px;
 			}
 			&-item {
-				padding: 8px 0 4px 108px;
+				padding: 8px 0 4px 99px;
 			}
 			&-adver {
 				display: flex;
@@ -196,19 +194,26 @@
 @media (max-width: 384px) {
 	.header {
 		&__wrapper {
-			width: 320px;
+			width: 300px;
 		}
 		&__hamburger {
 			padding-left: 90px;
 			&-nav {
-				width: 320px;
+				width: 300px;
 			}
 			&-adver {
-				width: 320px;
+				width: 300px;
 				margin: 0 7px;
 				button {
-					width: 320px;
+					width: 300px;
 				}
+			}
+			&-items {
+				width: 300px;
+				padding-left: 30px;
+			}
+			&-item {
+				padding-left: 60px;
 			}
 		}
 		.offcanvas-body {
@@ -232,6 +237,9 @@
 				button {
 					width: 280px;
 				}
+			}
+			&-item {
+				padding-left: 32px;
 			}
 		}
 		.offcanvas-body {

@@ -121,10 +121,14 @@
 				margin-bottom: 40px;
 			}
 		}
+		&__title {
+			margin: 22px 0 0 22px
+		}
 		&__first {
 			margin: 0;
 			&-first {
 				padding: 0;
+				height: 480px;
 			}
 			&-one {
 				width: 343px;
@@ -135,7 +139,6 @@
 					height: 320px;
 					border-radius: 24px 24px 0 0;
 				}
-				@include before_main-bg;
 				
 			}
 			&-descr {
@@ -145,10 +148,10 @@
 				width: 295px;
 				font-size: $font-size-32;
 				line-height: 35.2px;
-				margin: 0 0 16px 24px;
+				margin: 0 0 2px 24px;
 			}
 			&-subtitle {
-				margin: 0 0 24px 24px;
+				margin: 15px 0 0 24px;
 			}
 			&-second {
 				width: 343px;
@@ -216,10 +219,11 @@
 		&__mobile {
 			display: block;
 			width: 343px;
-			height: 160px;
-			background: url('../../img/bg-tile-mobile.png') no-repeat 50% 100%/100% 250%;
+			height: 280px;
+			background: url('../../img/bg-tile-mobile.png') no-repeat center 100%;
 			border-radius: 0 0 24px 24px;
-			z-index: 0;
+			position: relative;
+			top: -100px;
 		}
 	}
 }

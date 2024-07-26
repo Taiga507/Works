@@ -2,7 +2,7 @@
 	.carousel {
 		&__wrapper {
 			max-width: 100%;
-			margin: 0 0 100px 25px;
+			margin: 0 0 0 25px;
 			h2 {
 				font-size: $font-size-32;
 				line-height: 38.4px;
@@ -37,26 +37,26 @@
 				&-img {
 					display: block;
 					width: 320px;
-					height: 480px;
+					height: 320px;
+					border-radius: 24px 24px 0 0;
 					img {
 						width: 100%;
 						height: 100%;
 						object-fit: cover;
-					}
-					&:before {
-						width: 320px;
-						height: 480px;
+						border-radius: 24px 24px 0 0;
 					}
 				}
+			}
+			&__mobile {
+				width: 320px;
+				height: 260px;
+				background: url('../../img/bg-tile-slider.png') no-repeat center center;
+				position: relative;
+    			top: -100px;
 			}
 		}
 		.glide__slides {
 			gap: 0;
-		}
-		li {
-			margin-left: 0 !important;
-			margin-right: 0 !important;
-			margin-bottom: 0;
 		}
 	}
 }
@@ -73,40 +73,19 @@
 				}
 				&-title {
 					font-size: $font-size-26;
-					width: 240px;
+					width: 220px;
 					margin-left: 10px;
+					margin-right: 10px;
 				}
 				&-subtitle {
 					margin-left: 10px;
 				}
 				&-img {
-					img {
-						width: 330px;
-					}
-					&:before {
-						width: 330px;
-					}
+					width: 240px;
 				}
 			}
-		}
-	}
-}
-
-@media (max-width: 320px) {
-	.carousel {
-		&__wrapper {
-			margin-left: 5px;
-		}
-		.tile {
-			&__second {
-				&-img {
-					img {
-						width: 255px;
-					}
-					&:before {
-						width: 255px;
-					}
-				}
+			&__mobile {
+				width: 240px;
 			}
 		}
 	}

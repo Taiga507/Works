@@ -125,6 +125,9 @@
 	}
 	.advert {
 		&__article{
+			&-wrapper {
+				width: 280px;
+			}
 			&-chapter {
 				width: 280px;
 			}

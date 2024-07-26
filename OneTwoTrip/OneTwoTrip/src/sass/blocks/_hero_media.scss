@@ -13,7 +13,8 @@
 	.hero {
 		&__wrapper {
 			width: 343px;
-			margin: 0 auto 16px auto;
+			height: 440px;
+			margin: 0 auto 113px auto;
 			h1 {
 				font-size: $font-size-32;
 				line-height: 38.4px;
@@ -28,8 +29,6 @@
 		&__main {
 			height: 320px;
 			border-radius: 24px 24px 0 0;
-			@include before_main-bg;
-
 		}
 		&__descr {
 			top: 318px;
@@ -44,6 +43,10 @@
 				flex-direction: column;
 				gap: 8px;
 			}
+		}
+		.tile__mobile {
+			height: 258px;
+			background: url('../../img/bg-hero-mobile.png') no-repeat center 100%;
 		}
 	}
 }
