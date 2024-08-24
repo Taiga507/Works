@@ -1,0 +1,156 @@
+@media (max-width: 1200px) {
+	.chapter {
+		&__advert {
+			display: none;
+		}
+		&__sixth {
+			&-advert {
+				display: none;
+			}
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.chapter {
+		&__wrapper {
+			width: 343px;
+			margin: 0 auto 32px auto;
+			p {
+				font-size: $font-size-16;
+				line-height: 25.6px;
+			}
+			p + p {
+				margin-top: 25.6px;
+			}
+			h3 {
+				font-size: $font-size-24;
+				line-height: 28.8px;
+			}
+		}
+		&__social {
+			width: 343px;
+			p {
+				width: 95px;
+				height: 38px;
+				font-size: $font-size-16;
+				line-height: 19.2px;
+			}
+		}
+		&__info {
+			&-descr {
+				gap: 24px;
+			}
+			&-title {
+				font-size: $font-size-16;
+				line-height: 19.2px;
+			}
+			&-arrow {
+				display: none;
+			}
+		}
+		&__advert {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 343px;
+			background-position: 50% 100%;
+			background-size: 85%;
+			&-btn {
+				width: 295px;
+			}
+			&-title {
+				width: 234px;
+			}
+		}
+		&__intro {
+			flex-wrap: wrap-reverse;
+			gap: 24px;
+			&-main {
+				width: 343px;
+				p {
+					font-size: $font-size-20;
+					line-height: 32px;
+				}
+				h3 {
+					margin-top: 64px;
+				}
+				ul {
+					margin-bottom: 64px;
+				}
+			}
+			&-advert {
+				p {
+					width: 219px;
+					font-size: $font-size-18;
+					line-height: 21.6px;
+				}
+			}
+		}
+		&__main {
+			flex-wrap: wrap;
+		}
+		&__third {
+			img {
+				height: 220px;
+				margin: 0 0 64px 0;
+			}
+			&-hotels {
+				margin-bottom: 25.6px;
+				p + p {
+					margin: 0;
+				}
+			}
+		}
+		&__fourth {
+			ul {
+				margin-top: 25.6px;
+				li {
+					margin-top: 25.6px;
+				}
+			}
+		}
+		&__fifth {
+			margin-top: 64px;
+			span {
+				font-weight: 400;
+			}
+		}
+		&__sixth {
+			margin: 64px 0 0 0;
+		}
+		&__seventh {
+			margin-top: 64px;
+		}
+	}
+}
+
+@media (max-width: 384px) {
+	.chapter {
+		&__wrapper {
+			width: 280px;
+		}
+		&__social {
+			width: 280px;
+		}
+		&__advert {
+			width: 280px;
+			&-btn {
+				width: 240px;
+			}
+		}
+		&__intro {
+			&-main {
+				width: 280px;
+			}
+		}
+	}
+}
+
+// @media (max-width: 338px) {
+	
+// }
+
+// @media (max-width: 320px) {
+	
+// }

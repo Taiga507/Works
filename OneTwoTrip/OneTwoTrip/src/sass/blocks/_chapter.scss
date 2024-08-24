@@ -41,10 +41,11 @@
 	}
 	&__comment {
 		max-width: 790px;
-		height: 223px;
-		margin: 24px 0 24px 0;
+		min-height: 223px;
+		margin: 24px 0 0 0;
 		border-radius: 24px;
 		background-color: $gray;
+		padding-bottom: 24px;
 		p {
 			padding: 24px;
 		}
@@ -155,7 +156,7 @@
 	}
 	&__intro {
 		display: flex;
-		// justify-content: space-between;
+		justify-content: space-between;
 		margin-bottom: 80px;
 		&-main {
 			max-width: 790px;
@@ -179,6 +180,9 @@
 				line-height: 19.8px;
 				padding-bottom: 24px;
 				@include after_underline;
+			}
+			li:last-child {
+				padding-bottom: 0;
 			}
 		}
 		&-advert {
@@ -235,6 +239,9 @@
 			p + p {
 				margin: 0;
 			}
+			&-last {
+				margin-bottom: 28.8px;
+			}
 		}
 	}
 	&__fourth {
@@ -243,6 +250,10 @@
 	&__fifth {
 		max-width: 790px;
 		margin: 48px 0;
+		&-ps {
+			color: $neutral-grey;
+			padding-top: 48px;
+		}
 	}
 	&__sixth {
 		display: flex;
@@ -274,10 +285,6 @@
 	}
 	&__seventh {
 		max-width: 790px;
-		&-ps {
-			color: $neutral-grey;
-			margin-top: 48px;
-		}
 	}
 }
 

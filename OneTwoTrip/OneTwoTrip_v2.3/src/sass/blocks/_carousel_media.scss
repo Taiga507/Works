@@ -1,0 +1,92 @@
+@media (max-width: 767px) {
+	.carousel {
+		&__wrapper {
+			max-width: 100%;
+			margin: 0 0 0 25px;
+			h2 {
+				font-size: $font-size-32;
+				line-height: 38.4px;
+			}
+		}
+		&__controls {
+			display: none;
+		}
+		.tile {
+			&__title {
+				display: none;
+			}
+			&__second {
+				&-row {
+					border-top: none;
+				}
+				&-descr {
+					position: absolute;
+				}
+				&-title {
+					position: relative;
+					width: 272px;
+					color: $color-white;
+					font-size: $font-size-32;
+					line-height: 38.4px;
+					margin: 306px 23px 16px 24px;
+				}
+				&-subtitle {
+					color: $color-white;
+					margin: 0 0 0 24px;
+				}
+				&-img {
+					display: block;
+					width: 320px;
+					height: 320px;
+					border-radius: 24px 24px 0 0;
+					img {
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+						border-radius: 24px 24px 0 0;
+					}
+				}
+			}
+			&__mobile {
+				width: 320px;
+				height: 260px;
+				background: url('../../img/bg-tile-slider.png') no-repeat center center;
+				position: relative;
+    			top: -100px;
+			}
+		}
+		.glide__slides {
+			gap: 0;
+		}
+	}
+}
+
+@media (max-width: 384px) {
+	.carousel {
+		&__wrapper {
+			margin-left: 20px;
+		}
+		.tile {
+			&__second {
+				&-descr {
+					width: 255px;
+				}
+				&-title {
+					font-size: $font-size-26;
+					width: 220px;
+					margin-left: 10px;
+					margin-right: 10px;
+				}
+				&-subtitle {
+					margin-left: 10px;
+				}
+				&-img {
+					width: 240px;
+				}
+			}
+			&__mobile {
+				width: 240px;
+			}
+		}
+	}
+}

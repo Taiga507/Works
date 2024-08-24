@@ -1,0 +1,61 @@
+.carousel {
+	&__wrapper {
+		margin: 0 40px 160px 40px;
+		h2 {
+			padding-bottom: 40px;
+			margin: 0;
+		}
+		img {
+			width: 384px;
+			height: 220px;
+			border-radius: 24px;
+		}
+	}
+	&__controls {
+		position: relative;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		top: 50%;
+		transform: translateY(-50%);
+		&-prev {
+			position: absolute;
+			top: -135px;
+			left: -26px;
+		}
+		&-next {
+			position: absolute;
+			top: -135px;
+			right: -26px;
+		}
+		button {
+			background: none;
+			border: none;
+			padding: 0;
+			img {
+				max-width: 53px;
+				max-height: 53px;
+			}
+		}
+	}
+	.tile {
+		&__second {
+			&-row {
+				margin-right: 0;
+			}
+			&-img {
+				img {
+					width: 100%;
+				}
+				&:before {
+					width: 100%;
+				}
+			}
+		}
+	}
+	.glide__slides {
+		gap: 19px;
+	}
+}
+
+@import '_carousel_media';

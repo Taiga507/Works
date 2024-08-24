@@ -1,0 +1,110 @@
+@media (max-width: 1296px) {
+	.mailing {
+		&__items {
+			&-form {
+				input {
+					width: 350px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+	.mailing {
+		&__items {
+			&-form {
+				input {
+					width: 250px;
+				}
+			}
+		}
+		&__wrapper {
+			h4 {
+				font-size: $font-size-28;
+			}
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	.mailing {
+		&__items {
+			&-form {
+				padding-left: 50px;
+				input {
+					width: 210px;
+					height: 50px;
+				}
+				button {
+					width: 60px;
+				}
+			}
+			&-title {
+				padding: 15px 0 0 50px
+			}
+		}
+		&__wrapper {
+			h4 {
+				font-size: $font-size-22;
+				line-height: 32px;
+			}
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.mailing {
+		&__wrapper {
+			height: 280px;
+			margin-bottom: 48px;
+			background: url('../../img/bg_mailing-media.png') no-repeat 5% 54%/22%, $gray;
+			h4 {
+				font-size: $font-size-22;
+				line-height: 26.4px;
+				padding: 24px 24px 0 24px;
+			}
+		}
+		&__items {
+			&-form {
+				padding: 66px 24px 0 24px;
+				input {
+					width: 295px;
+					height: 48px;
+					padding: 0 0 5px 14px;
+				}
+				input::placeholder {
+					font-size: $font-size-16;
+				}
+				button {
+					width: 69px;
+				}
+			}
+			&-title {
+				padding: 15px 24px 24px 24px;
+				text-align: center;
+			}
+		}
+	}
+
+	.mailing {
+		&__article {
+			&-wrapper {
+				background: $gray;
+			}
+		}
+	}
+}
+
+@media (max-width: 384px) {
+	.mailing {
+		&__wrapper {
+			background-position: 10% 54%;
+		}
+		&__items {
+			&-form {
+				padding-top: 45px;
+			}
+		}
+	}
+}
