@@ -32,12 +32,19 @@
 	}
 	&__main {
 		position: relative;
-		background: url('../../img/article_main_bg.png') no-repeat 100%/cover;
-		height: 440px;
-		border-radius: 24px;
+		width: 100%;
+        min-height: 440px;
+		img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			border-radius: 24px;
+		}
 		&:before {
 			content: '';
-			display: block;
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -45,39 +52,37 @@
 			height: 100%;
 			background: linear-gradient(180deg, rgba(0, 0, 0, 0) 35%, rgba(17, 17, 17, 0.6) 88%);
 			border-radius: 24px;
+			z-index: 2;
 		}
-	}
-	&__title {
-		position: absolute;
-		background-color: $black-pearl;
-		border-radius: 30px;
-		color: $color-white;
-		font-family: $font-family-inter;
-		font-size: $font-size-13;
-		font-weight: 400;
-		line-height: 19px;
-		padding: 7px 13px;
-		margin: 23px 0 0 23px;
-		z-index: 2;
 	}
 	&__descr {
 		position: relative;
-		top: 223px;
-		z-index: 2;
+		overflow: hidden;
+		z-index: 3;
+		&-label {
+			position: relative;
+			background-color: $black-pearl;
+			border-radius: 30px;
+			color: $color-white;
+			font-family: $font-family-inter;
+			font-size: $font-size-13;
+			font-weight: 400;
+			line-height: 19px;
+			padding: 7px 13px;
+			top: 24px;
+			left: 24px;
+		}
 		&-title {
-			position: inherit;
-			bottom: 0;
 			width: 768px;
 			font-family: $font-family-golos-textmedium;
 			font-size: $font-size-64;
 			color: $color-white;
 			font-weight: 500;
 			line-height: 70.4px;
-			margin: 0 0 26px 24px;
+			margin: 200px 0 26px 24px;
 		}
 		&-subtitle {
 			display: flex;
-			position: inherit;
 			max-width: 1152px;
 			margin: 0 0 34px 24px;
 			gap: 8px;
